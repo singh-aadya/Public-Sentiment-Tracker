@@ -45,15 +45,6 @@ project_root/
    uv pip install -r requirements.txt
    ```
 
-3. Configure environment variables (create .env file):
-   ```
-   TWITTER_API_KEY=your_twitter_api_key
-   TWITTER_API_SECRET=your_twitter_api_secret
-   TWITTER_ACCESS_TOKEN=your_access_token
-   TWITTER_ACCESS_TOKEN_SECRET=your_access_token_secret
-   DATABASE_URL=your_database_connection_string
-   ```
-
 ## Usage
 
 Run the complete pipeline:
