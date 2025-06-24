@@ -1,0 +1,6 @@
+tweepy
+newspaper3k
+beautifulsoup4
+geopy
+pymongo
+python-dotenv
