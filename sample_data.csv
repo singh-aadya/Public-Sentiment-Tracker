@@ -1,0 +1,9 @@
+timestamp,latitude,longitude,category,sentiment,urgency
+2025-06-01,28.7041,77.1025,water,positive,low
+2025-06-02,28.7041,77.1025,electricity,negative,high
+2025-06-03,28.7041,77.1025,roads,negative,medium
+2025-06-01,19.0760,72.8777,water,neutral,medium
+2025-06-02,19.0760,72.8777,potholes,neutral,medium
+2025-06-03,19.0760,72.8777,garbage,negative,medium
+2025-06-01,12.9716,77.5946,cleanliness,positive,low
+2025-06-02,12.9716,77.5946,electricity,positive,low

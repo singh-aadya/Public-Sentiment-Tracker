@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_62c90a2e8c81d616d4a75188e4804787 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+    <script src="https://cdn.jsdelivr.net/gh/python-visualization/folium@main/folium/templates/leaflet_heat.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_62c90a2e8c81d616d4a75188e4804787" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_62c90a2e8c81d616d4a75188e4804787 = L.map(
+                "map_62c90a2e8c81d616d4a75188e4804787",
+                {
+                    center: [22.9734, 78.6569],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 5,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_780573b45b007122fd0b15906046ba07 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_780573b45b007122fd0b15906046ba07.addTo(map_62c90a2e8c81d616d4a75188e4804787);
+        
+    
+            var heat_map_ac23f9f07f9c2423c3848b7359d47565 = L.heatLayer(
+                [[28.7041, 77.1025], [28.7041, 77.1025], [28.7041, 77.1025], [19.076, 72.8777], [19.076, 72.8777], [19.076, 72.8777], [12.9716, 77.5946], [12.9716, 77.5946]],
+                {
+  "minOpacity": 0.5,
+  "maxZoom": 18,
+  "radius": 12,
+  "blur": 15,
+}
+            );
+        
+    
+            heat_map_ac23f9f07f9c2423c3848b7359d47565.addTo(map_62c90a2e8c81d616d4a75188e4804787);
+        
+    
+            var marker_cluster_94d101dde322221f7fd7a98d024e110f = L.markerClusterGroup(
+                {
+}
+            );
+        
+    
+            var marker_36b3ddb4b4bb0a9331d91f5b8ac4b783 = L.marker(
+                [12.9716, 77.5946],
+                {
+}
+            ).addTo(marker_cluster_94d101dde322221f7fd7a98d024e110f);
+        
+    
+        var popup_80945bc57386aad132f4721ad879c1c9 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_fa300dd18ce2a8cf32b81c1dc0208aef = $(`<div id="html_fa300dd18ce2a8cf32b81c1dc0208aef" style="width: 100.0%; height: 100.0%;">         <b>City:</b> Bangalore<br>         <b>Total Issues:</b> 2<br>         <b>Dominant Sentiment:</b> positive<br>         <b>Dominant Urgency:</b> low<br>         <b>Sentiment Distribution:</b><br>         &nbsp;&nbsp;&nbsp;&nbsp;Positive: 2<br>         &nbsp;&nbsp;&nbsp;&nbsp;Negative: 0<br>         &nbsp;&nbsp;&nbsp;&nbsp;Neutral: 0<br>         <b>Top Issues:</b> cleanliness, electricity         </div>`)[0];
+                popup_80945bc57386aad132f4721ad879c1c9.setContent(html_fa300dd18ce2a8cf32b81c1dc0208aef);
+            
+        
+
+        marker_36b3ddb4b4bb0a9331d91f5b8ac4b783.bindPopup(popup_80945bc57386aad132f4721ad879c1c9)
+        ;
+
+        
+    
+    
+            marker_36b3ddb4b4bb0a9331d91f5b8ac4b783.bindTooltip(
+                `<div>
+                     Bangalore - 2 issues
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_df2466a5fcc5e9de4cf610c6524ec37f = L.marker(
+                [19.076, 72.8777],
+                {
+}
+            ).addTo(marker_cluster_94d101dde322221f7fd7a98d024e110f);
+        
+    
+        var popup_7ea987af5b6293d8f8fa1d04d8887ba2 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_73ccb072fd97a88e608b971af8f29f97 = $(`<div id="html_73ccb072fd97a88e608b971af8f29f97" style="width: 100.0%; height: 100.0%;">         <b>City:</b> Mumbai<br>         <b>Total Issues:</b> 3<br>         <b>Dominant Sentiment:</b> neutral<br>         <b>Dominant Urgency:</b> medium<br>         <b>Sentiment Distribution:</b><br>         &nbsp;&nbsp;&nbsp;&nbsp;Positive: 0<br>         &nbsp;&nbsp;&nbsp;&nbsp;Negative: 1<br>         &nbsp;&nbsp;&nbsp;&nbsp;Neutral: 2<br>         <b>Top Issues:</b> water, potholes, garbage         </div>`)[0];
+                popup_7ea987af5b6293d8f8fa1d04d8887ba2.setContent(html_73ccb072fd97a88e608b971af8f29f97);
+            
+        
+
+        marker_df2466a5fcc5e9de4cf610c6524ec37f.bindPopup(popup_7ea987af5b6293d8f8fa1d04d8887ba2)
+        ;
+
+        
+    
+    
+            marker_df2466a5fcc5e9de4cf610c6524ec37f.bindTooltip(
+                `<div>
+                     Mumbai - 3 issues
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_6ef6e07a19210702bbd124e4cd33e6f0 = L.marker(
+                [28.7041, 77.1025],
+                {
+}
+            ).addTo(marker_cluster_94d101dde322221f7fd7a98d024e110f);
+        
+    
+        var popup_a3c0797dc0db363aa0d0a47386728092 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_aa58cd38306890cede9d65dc1268a84b = $(`<div id="html_aa58cd38306890cede9d65dc1268a84b" style="width: 100.0%; height: 100.0%;">         <b>City:</b> Delhi<br>         <b>Total Issues:</b> 3<br>         <b>Dominant Sentiment:</b> negative<br>         <b>Dominant Urgency:</b> low<br>         <b>Sentiment Distribution:</b><br>         &nbsp;&nbsp;&nbsp;&nbsp;Positive: 1<br>         &nbsp;&nbsp;&nbsp;&nbsp;Negative: 2<br>         &nbsp;&nbsp;&nbsp;&nbsp;Neutral: 0<br>         <b>Top Issues:</b> water, electricity, roads         </div>`)[0];
+                popup_a3c0797dc0db363aa0d0a47386728092.setContent(html_aa58cd38306890cede9d65dc1268a84b);
+            
+        
+
+        marker_6ef6e07a19210702bbd124e4cd33e6f0.bindPopup(popup_a3c0797dc0db363aa0d0a47386728092)
+        ;
+
+        
+    
+    
+            marker_6ef6e07a19210702bbd124e4cd33e6f0.bindTooltip(
+                `<div>
+                     Delhi - 3 issues
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            marker_cluster_94d101dde322221f7fd7a98d024e110f.addTo(map_62c90a2e8c81d616d4a75188e4804787);
+        
+</script>
+</html>
