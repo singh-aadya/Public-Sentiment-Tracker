@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_f529d7522fa61321edafb85053b7fdbc {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_f529d7522fa61321edafb85053b7fdbc" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_f529d7522fa61321edafb85053b7fdbc = L.map(
+                "map_f529d7522fa61321edafb85053b7fdbc",
+                {
+                    center: [20.5937, 78.9629],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 6,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_2138fac4a39dd491ea3fc6ab74d55fa4 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_2138fac4a39dd491ea3fc6ab74d55fa4.addTo(map_f529d7522fa61321edafb85053b7fdbc);
+        
+    
+            var tile_layer_a24010db728a3317ca27545cf7086d10 = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 20, "maxZoom": 20, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abcd", "tms": false}
+            );
+        
+    
+            tile_layer_a24010db728a3317ca27545cf7086d10.addTo(map_f529d7522fa61321edafb85053b7fdbc);
+        
+    
+            var tile_layer_8318b07e3b009bff907587e4c9449210 = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 20, "maxZoom": 20, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abcd", "tms": false}
+            );
+        
+    
+            tile_layer_8318b07e3b009bff907587e4c9449210.addTo(map_f529d7522fa61321edafb85053b7fdbc);
+        
+    
+            var marker_b772607554d9b80bb96a6df88f185000 = L.marker(
+                [19.076, 72.8777],
+                {}
+            ).addTo(map_f529d7522fa61321edafb85053b7fdbc);
+        
+    
+            var icon_326e13abe5a654b3d7dc142854910980 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "time", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_b772607554d9b80bb96a6df88f185000.setIcon(icon_326e13abe5a654b3d7dc142854910980);
+        
+    
+        var popup_97a195ace5bcbf14f819e7b7bdc3abf6 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_7ca27fbfad0f9b24a5cabd8ad376c723 = $(`<div id="html_7ca27fbfad0f9b24a5cabd8ad376c723" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif; width: 200px;">                 <h4>Mumbai</h4>                 <p><strong>Total Issues:</strong> 2</p>                 <h5>Sentiment Distribution:</h5>                 <p>Negative: 100.0%</p>             </div>             </div>`)[0];
+                popup_97a195ace5bcbf14f819e7b7bdc3abf6.setContent(html_7ca27fbfad0f9b24a5cabd8ad376c723);
+            
+        
+
+        marker_b772607554d9b80bb96a6df88f185000.bindPopup(popup_97a195ace5bcbf14f819e7b7bdc3abf6)
+        ;
+
+        
+    
+    
+            marker_b772607554d9b80bb96a6df88f185000.bindTooltip(
+                `<div>
+                     Mumbai: 2 issues
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6c04704d7934807e8cf58c99cbb867f7 = L.marker(
+                [28.6139, 77.209],
+                {}
+            ).addTo(map_f529d7522fa61321edafb85053b7fdbc);
+        
+    
+            var icon_e0f2aaaae4e3ab06ab17ed62304b8fb8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "time", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_6c04704d7934807e8cf58c99cbb867f7.setIcon(icon_e0f2aaaae4e3ab06ab17ed62304b8fb8);
+        
+    
+        var popup_901955dd68f1e89d4342fcba82e9627a = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_15f3397f9f4237184d9d82fbe3e742f1 = $(`<div id="html_15f3397f9f4237184d9d82fbe3e742f1" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif; width: 200px;">                 <h4>Delhi</h4>                 <p><strong>Total Issues:</strong> 1</p>                 <h5>Sentiment Distribution:</h5>                 <p>Negative: 100.0%</p>             </div>             </div>`)[0];
+                popup_901955dd68f1e89d4342fcba82e9627a.setContent(html_15f3397f9f4237184d9d82fbe3e742f1);
+            
+        
+
+        marker_6c04704d7934807e8cf58c99cbb867f7.bindPopup(popup_901955dd68f1e89d4342fcba82e9627a)
+        ;
+
+        
+    
+    
+            marker_6c04704d7934807e8cf58c99cbb867f7.bindTooltip(
+                `<div>
+                     Delhi: 1 issues
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_437ee2096fb9c7d168c98ebc668f80dc = L.marker(
+                [12.9716, 77.5946],
+                {}
+            ).addTo(map_f529d7522fa61321edafb85053b7fdbc);
+        
+    
+            var icon_bd36174072b2aca97a559262c4b8e1ee = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "time", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_437ee2096fb9c7d168c98ebc668f80dc.setIcon(icon_bd36174072b2aca97a559262c4b8e1ee);
+        
+    
+        var popup_4d06117c16ce0e041c4c29bbc50d573d = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_62fc86ffbd59917e3769804d7ec4543a = $(`<div id="html_62fc86ffbd59917e3769804d7ec4543a" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif; width: 200px;">                 <h4>Bangalore</h4>                 <p><strong>Total Issues:</strong> 1</p>                 <h5>Sentiment Distribution:</h5>                 <p>Positive: 100.0%</p>             </div>             </div>`)[0];
+                popup_4d06117c16ce0e041c4c29bbc50d573d.setContent(html_62fc86ffbd59917e3769804d7ec4543a);
+            
+        
+
+        marker_437ee2096fb9c7d168c98ebc668f80dc.bindPopup(popup_4d06117c16ce0e041c4c29bbc50d573d)
+        ;
+
+        
+    
+    
+            marker_437ee2096fb9c7d168c98ebc668f80dc.bindTooltip(
+                `<div>
+                     Bangalore: 1 issues
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>

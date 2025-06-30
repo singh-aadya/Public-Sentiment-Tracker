@@ -1,0 +1,166 @@
+[
+  {
+    "text": "Water crisis in Mumbai! 😰 Residents facing shortage for 3 days. @MumbaiMunicipal please take immediate action! #WaterCrisis #Mumbai",
+    "source": "twitter",
+    "timestamp": "2024-01-15T10:30:00Z",
+    "author_location": "Mumbai, Maharashtra",
+    "cleaned_text": "Water crisis in Mumbai! Residents facing shortage for 3 days. please take immediate action! WaterCrisis Mumbai",
+    "keywords": [
+      {
+        "keyword": "water",
+        "score": 2.4
+      },
+      {
+        "keyword": "crisis",
+        "score": 2.4
+      },
+      {
+        "keyword": "water crisis",
+        "score": 2.0
+      },
+      {
+        "keyword": "shortage",
+        "score": 1.0
+      }
+    ],
+    "sentiment": "negative",
+    "sentiment_confidence": 0.758,
+    "vader_compound": -0.658,
+    "urgency": "high",
+    "extracted_locations": [
+      "Mumbai",
+      "Mumbai, Maharashtra"
+    ]
+  },
+  {
+    "text": "Terrible road conditions in Bangalore. Potholes everywhere causing traffic problems. The municipal corporation needs to fix this URGENTLY!!! #BangaloreRoads",
+    "source": "twitter",
+    "timestamp": "2024-01-15T11:45:00Z",
+    "author_location": "Bangalore, Karnataka",
+    "cleaned_text": "Terrible road conditions in Bangalore. Potholes everywhere causing traffic problems. The municipal corporation needs to fix this URGENTLY!! BangaloreRoads",
+    "keywords": [
+      {
+        "keyword": "road",
+        "score": 2.4
+      },
+      {
+        "keyword": "road condition",
+        "score": 2.0
+      },
+      {
+        "keyword": "traffic problem",
+        "score": 2.0
+      },
+      {
+        "keyword": "municipal corporation",
+        "score": 2.0
+      },
+      {
+        "keyword": "pothole",
+        "score": 1.2
+      }
+    ],
+    "sentiment": "negative",
+    "sentiment_confidence": 0.9494,
+    "vader_compound": -0.7494,
+    "urgency": "high",
+    "extracted_locations": [
+      "Bangalore, Karnataka",
+      "Bangalore"
+    ]
+  },
+  {
+    "text": "Power outage in our area for the third consecutive day. This is completely unacceptable. When will the electricity board take action?",
+    "source": "twitter",
+    "timestamp": "2024-01-15T12:15:00Z",
+    "author_location": "Delhi",
+    "cleaned_text": "Power outage in our area for the third consecutive day. This is completely unacceptable. When will the electricity board take action?",
+    "keywords": [
+      {
+        "keyword": "power outage",
+        "score": 2.0
+      },
+      {
+        "keyword": "power",
+        "score": 1.2
+      },
+      {
+        "keyword": "outage",
+        "score": 1.2
+      },
+      {
+        "keyword": "electricity",
+        "score": 1.0
+      }
+    ],
+    "sentiment": "negative",
+    "sentiment_confidence": 0.5095,
+    "vader_compound": -0.5095,
+    "urgency": "medium",
+    "extracted_locations": [
+      "Delhi"
+    ]
+  },
+  {
+    "text": "The municipal corporation announced new measures to address the water supply issues in the eastern districts. The initiative includes installation of new pipelines and improvement of existing infrastructure.",
+    "source": "news",
+    "timestamp": "2024-01-15T09:00:00Z",
+    "url": "https://example-news.com/water-supply-measures",
+    "cleaned_text": "The municipal corporation announced new measures to address the water supply issues in the eastern districts. The initiative includes installation of new pipelines and improvement of existing infrastructure.",
+    "keywords": [
+      {
+        "keyword": "water supply",
+        "score": 2.0
+      },
+      {
+        "keyword": "municipal corporation",
+        "score": 2.0
+      },
+      {
+        "keyword": "water",
+        "score": 1.2
+      },
+      {
+        "keyword": "municipal",
+        "score": 1.2
+      },
+      {
+        "keyword": "corporation",
+        "score": 1.2
+      }
+    ],
+    "sentiment": "positive",
+    "sentiment_confidence": 0.4588,
+    "vader_compound": 0.4588,
+    "urgency": "low",
+    "extracted_locations": []
+  },
+  {
+    "text": "Garbage collection has improved significantly in our locality over the past month. Thanks to the efficient work by the sanitation department.",
+    "source": "twitter",
+    "timestamp": "2024-01-15T13:20:00Z",
+    "author_location": "Pune, Maharashtra",
+    "cleaned_text": "Garbage collection has improved significantly in our locality over the past month. Thanks to the efficient work by the sanitation department.",
+    "keywords": [
+      {
+        "keyword": "garbage collection",
+        "score": 2.0
+      },
+      {
+        "keyword": "garbage",
+        "score": 1.2
+      },
+      {
+        "keyword": "sanitation",
+        "score": 1.0
+      }
+    ],
+    "sentiment": "positive",
+    "sentiment_confidence": 0.9316,
+    "vader_compound": 0.8316,
+    "urgency": "low",
+    "extracted_locations": [
+      "Pune, Maharashtra"
+    ]
+  }
+]

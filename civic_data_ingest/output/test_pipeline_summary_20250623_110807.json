@@ -1,0 +1,18 @@
+{
+  "total_records": 5,
+  "sentiment_distribution": {
+    "negative": 3,
+    "positive": 2
+  },
+  "urgency_distribution": {
+    "high": 2,
+    "medium": 1,
+    "low": 2
+  },
+  "source_distribution": {
+    "twitter": 4,
+    "news": 1
+  },
+  "records_with_locations": 4,
+  "processed_at": "2025-06-23T05:38:07.903882+00:00"
+}

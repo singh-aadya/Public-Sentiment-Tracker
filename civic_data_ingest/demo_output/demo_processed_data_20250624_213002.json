@@ -1,0 +1,3079 @@
+[
+  {
+    "text": "Terrible road conditions in Delhi. Potholes everywhere causing traffic problems and vehicle damage. The municipal corporation needs to fix this URGENTLY!!! #RoadRepair #Delhi",
+    "source": "twitter",
+    "timestamp": "2025-06-13T09:29:54.453253",
+    "author_location": "Delhi, India",
+    "template_category": "roads",
+    "template_sentiment": "negative",
+    "template_urgency": "high",
+    "cleaned_text": "Terrible road conditions in Delhi. Potholes everywhere causing traffic problems and vehicle damage. The municipal corporation needs to fix this URGENTLY!! RoadRepair Delhi",
+    "keywords": [
+      {
+        "keyword": "road",
+        "score": 2.4
+      },
+      {
+        "keyword": "road condition",
+        "score": 2.0
+      },
+      {
+        "keyword": "traffic problem",
+        "score": 2.0
+      },
+      {
+        "keyword": "municipal corporation",
+        "score": 2.0
+      },
+      {
+        "keyword": "pothole",
+        "score": 1.2
+      }
+    ],
+    "keyword_categories": {
+      "water_issues": [],
+      "power_issues": [],
+      "road_transport": [
+        "road",
+        "road condition",
+        "traffic problem",
+        "pothole"
+      ],
+      "waste_sanitation": [],
+      "infrastructure": [],
+      "general_civic": [
+        "municipal corporation"
+      ]
+    },
+    "sentiment": "negative",
+    "sentiment_confidence": 1.0,
+    "vader_compound": -0.8619,
+    "urgency": "high",
+    "emotional_indicators": {
+      "exclamation_marks": 3,
+      "question_marks": 0,
+      "caps_words": 1,
+      "emotional_intensity": 3.5,
+      "emotion_counts": {
+        "anger": 0,
+        "fear": 0,
+        "sadness": 0,
+        "joy": 0
+      },
+      "dominant_emotion": "neutral"
+    },
+    "extracted_locations": [
+      "Delhi"
+    ]
+  },
+  {
+    "text": "Public transport service has become very unreliable in Pune. Buses are irregular and overcrowded. Need better management. #PublicTransport",
+    "source": "twitter",
+    "timestamp": "2025-06-07T08:29:54.453253",
+    "author_location": "Pune, India",
+    "template_category": "transport",
+    "template_sentiment": "negative",
+    "template_urgency": "medium",
+    "cleaned_text": "Public transport service has become very unreliable in Pune. Buses are irregular and overcrowded. Need better management. PublicTransport",
+    "keywords": [
+      {
+        "keyword": "public",
+        "score": 2.4
+      },
+      {
+        "keyword": "transport",
+        "score": 2.4
+      },
+      {
+        "keyword": "public transport",
+        "score": 2.0
+      },
+      {
+        "keyword": "bus",
+        "score": 1.0
+      }
+    ],
+    "keyword_categories": {
+      "water_issues": [],
+      "power_issues": [],
+      "road_transport": [
+        "transport",
+        "public transport",
+        "bus"
+      ],
+      "waste_sanitation": [],
+      "infrastructure": [],
+      "general_civic": [
+        "public"
+      ]
+    },
+    "sentiment": "positive",
+    "sentiment_confidence": 0.5404,
+    "vader_compound": 0.4404,
+    "urgency": "low",
+    "emotional_indicators": {
+      "exclamation_marks": 0,
+      "question_marks": 0,
+      "caps_words": 0,
+      "emotional_intensity": 0.0,
+      "emotion_counts": {
+        "anger": 0,
+        "fear": 0,
+        "sadness": 0,
+        "joy": 0
+      },
+      "dominant_emotion": "neutral"
+    },
+    "extracted_locations": [
+      "Pune"
+    ]
+  },
+  {
+    "text": "News: Sewage overflow near residential area in Chennai. Health hazard for residents. Emergency action needed by municipal authorities!",
+    "source": "news",
+    "timestamp": "2025-06-23T10:29:54.453253",
+    "author_location": null,
+    "template_category": "sanitation",
+    "template_sentiment": "negative",
+    "template_urgency": "high",
+    "cleaned_text": "News: Sewage overflow near residential area in Chennai. Health hazard for residents. Emergency action needed by municipal authorities!",
+    "keywords": [
+      {
+        "keyword": "sewage",
+        "score": 1.2
+      },
+      {
+        "keyword": "municipal",
+        "score": 1.0
+      },
+      {
+        "keyword": "emergency",
+        "score": 1.0
+      }
+    ],
+    "keyword_categories": {
+      "water_issues": [],
+      "power_issues": [],
+      "road_transport": [],
+      "waste_sanitation": [
+        "sewage"
+      ],
+      "infrastructure": [],
+      "general_civic": [
+        "municipal",
+        "emergency"
+      ]
+    },
+    "sentiment": "negative",
+    "sentiment_confidence": 0.5389,
+    "vader_compound": -0.4389,
+    "urgency": "medium",
+    "emotional_indicators": {
+      "exclamation_marks": 1,
+      "question_marks": 0,
+      "caps_words": 0,
+      "emotional_intensity": 1.0,
+      "emotion_counts": {
+        "anger": 0,
+        "fear": 0,
+        "sadness": 0,
+        "joy": 0
+      },
+      "dominant_emotion": "neutral"
+    },
+    "extracted_locations": [
+      "Chennai"
+    ]
+  },
+  {
+    "text": "The municipal corporation in Delhi announced new measures to address the water supply issues. The initiative includes installation of new pipelines and improvement of existing infrastructure.",
+    "source": "twitter",
+    "timestamp": "2025-06-19T06:29:54.453253",
+    "author_location": "Delhi, India",
+    "template_category": "water",
+    "template_sentiment": "positive",
+    "template_urgency": "low",
+    "cleaned_text": "The municipal corporation in Delhi announced new measures to address the water supply issues. The initiative includes installation of new pipelines and improvement of existing infrastructure.",
+    "keywords": [
+      {
+        "keyword": "water supply",
+        "score": 2.0
+      },
+      {
+        "keyword": "municipal corporation",
+        "score": 2.0
+      },
+      {
+        "keyword": "municipal",
+        "score": 1.2
+      },
+      {
+        "keyword": "corporation",
+        "score": 1.2
+      },
+      {
+        "keyword": "water",
+        "score": 1.0
+      }
+    ],
+    "keyword_categories": {
+      "water_issues": [
+        "water supply",
+        "water"
+      ],
+      "power_issues": [],
+      "road_transport": [],
+      "waste_sanitation": [],
+      "infrastructure": [],
+      "general_civic": [
+        "municipal corporation",
+        "municipal",
+        "corporation"
+      ]
+    },
+    "sentiment": "positive",
+    "sentiment_confidence": 0.4588,
+    "vader_compound": 0.4588,
+    "urgency": "low",
+    "emotional_indicators": {
+      "exclamation_marks": 0,
+      "question_marks": 0,
+      "caps_words": 0,
+      "emotional_intensity": 0.0,
+      "emotion_counts": {
+        "anger": 0,
+        "fear": 0,
+        "sadness": 0,
+        "joy": 0
+      },
+      "dominant_emotion": "neutral"
+    },
+    "extracted_locations": [
+      "Delhi"
+    ]
+  },
+  {
+    "text": "Happy to report that the park maintenance in Delhi has improved. Clean and well-maintained green spaces for families. #ParkMaintenance",
+    "source": "twitter",
+    "timestamp": "2025-06-03T03:29:54.453253",
+    "author_location": "Delhi, India",
+    "template_category": "parks",
+    "template_sentiment": "positive",
+    "template_urgency": "low",
+    "cleaned_text": "Happy to report that the park maintenance in Delhi has improved. Clean and well-maintained green spaces for families. ParkMaintenance",
+    "keywords": [
+      {
+        "keyword": "park",
+        "score": 2.4
+      },
+      {
+        "keyword": "maintenance",
+        "score": 2.4
+      }
+    ],
+    "keyword_categories": {
+      "water_issues": [],
+      "power_issues": [],
+      "road_transport": [],
+      "waste_sanitation": [],
+      "infrastructure": [
+        "park"
+      ],
+      "general_civic": [
+        "maintenance"
+      ]
+    },
+    "sentiment": "positive",
+    "sentiment_confidence": 1.0,
+    "vader_compound": 0.8591,
+    "urgency": "low",
+    "emotional_indicators": {
+      "exclamation_marks": 0,
+      "question_marks": 0,
+      "caps_words": 0,
+      "emotional_intensity": 0.0,
+      "emotion_counts": {
+        "anger": 0,
+        "fear": 0,
+        "sadness": 0,
+        "joy": 1
+      },
+      "dominant_emotion": "joy"
+    },
+    "extracted_locations": [
+      "Delhi"
+    ]
+  },
+  {
+    "text": "Garbage collection has improved significantly in Pune over the past month. Thanks to the efficient work by the sanitation department. #ImprovedServices",
+    "source": "twitter",
+    "timestamp": "2025-06-05T03:29:54.453253",
+    "author_location": "Pune, India",
+    "template_category": "sanitation",
+    "template_sentiment": "positive",
+    "template_urgency": "low",
+    "cleaned_text": "Garbage collection has improved significantly in Pune over the past month. Thanks to the efficient work by the sanitation department. ImprovedServices",
+    "keywords": [
+      {
+        "keyword": "garbage collection",
+        "score": 2.0
+      },
+      {
+        "keyword": "garbage",
+        "score": 1.2
+      },
+      {
+        "keyword": "sanitation",
+        "score": 1.0
+      }
+    ],
+    "keyword_categories": {
+      "water_issues": [],
+      "power_issues": [],
+      "road_transport": [],
+      "waste_sanitation": [
+        "garbage collection",
+        "garbage",
+        "sanitation"
+      ],
+      "infrastructure": [],
+      "general_civic": []
+    },
+    "sentiment": "positive",
+    "sentiment_confidence": 0.9316,
+    "vader_compound": 0.8316,
+    "urgency": "low",
+    "emotional_indicators": {
+      "exclamation_marks": 0,
+      "question_marks": 0,
+      "caps_words": 0,
+      "emotional_intensity": 0.0,
+      "emotion_counts": {
+        "anger": 0,
+        "fear": 0,
+        "sadness": 0,
+        "joy": 0
+      },
+      "dominant_emotion": "neutral"
+    },
+    "extracted_locations": [
+      "Pune"
+    ]
+  },
+  {
+    "text": "Terrible road conditions in Delhi. Potholes everywhere causing traffic problems and vehicle damage. The municipal corporation needs to fix this URGENTLY!!! #RoadRepair #Delhi",
+    "source": "twitter",
+    "timestamp": "2025-06-20T09:29:54.453253",
+    "author_location": "Delhi, India",
+    "template_category": "roads",
+    "template_sentiment": "negative",
+    "template_urgency": "high",
+    "cleaned_text": "Terrible road conditions in Delhi. Potholes everywhere causing traffic problems and vehicle damage. The municipal corporation needs to fix this URGENTLY!! RoadRepair Delhi",
+    "keywords": [
+      {
+        "keyword": "road",
+        "score": 2.4
+      },
+      {
+        "keyword": "road condition",
+        "score": 2.0
+      },
+      {
+        "keyword": "traffic problem",
+        "score": 2.0
+      },
+      {
+        "keyword": "municipal corporation",
+        "score": 2.0
+      },
+      {
+        "keyword": "pothole",
+        "score": 1.2
+      }
+    ],
+    "keyword_categories": {
+      "water_issues": [],
+      "power_issues": [],
+      "road_transport": [
+        "road",
+        "road condition",
+        "traffic problem",
+        "pothole"
+      ],
+      "waste_sanitation": [],
+      "infrastructure": [],
+      "general_civic": [
+        "municipal corporation"
+      ]
+    },
+    "sentiment": "negative",
+    "sentiment_confidence": 1.0,
+    "vader_compound": -0.8619,
+    "urgency": "high",
+    "emotional_indicators": {
+      "exclamation_marks": 3,
+      "question_marks": 0,
+      "caps_words": 1,
+      "emotional_intensity": 3.5,
+      "emotion_counts": {
+        "anger": 0,
+        "fear": 0,
+        "sadness": 0,
+        "joy": 0
+      },
+      "dominant_emotion": "neutral"
+    },
+    "extracted_locations": [
+      "Delhi"
+    ]
+  },
+  {
+    "text": "Power outage in Mumbai for 11 hours. This is completely unacceptable. When will the electricity board take action? #PowerOutage",
+    "source": "twitter",
+    "timestamp": "2025-06-10T08:29:54.453253",
+    "author_location": "Mumbai, India",
+    "template_category": "power",
+    "template_sentiment": "negative",
+    "template_urgency": "medium",
+    "cleaned_text": "Power outage in Mumbai for 11 hours. This is completely unacceptable. When will the electricity board take action? PowerOutage",
+    "keywords": [
+      {
+        "keyword": "power",
+        "score": 2.4
+      },
+      {
+        "keyword": "outage",
+        "score": 2.4
+      },
+      {
+        "keyword": "power outage",
+        "score": 2.0
+      },
+      {
+        "keyword": "electricity",
+        "score": 1.0
+      }
+    ],
+    "keyword_categories": {
+      "water_issues": [],
+      "power_issues": [
+        "power",
+        "outage",
+        "power outage",
+        "electricity"
+      ],
+      "road_transport": [],
+      "waste_sanitation": [],
+      "infrastructure": [],
+      "general_civic": []
+    },
+    "sentiment": "negative",
+    "sentiment_confidence": 0.5095,
+    "vader_compound": -0.5095,
+    "urgency": "medium",
+    "emotional_indicators": {
+      "exclamation_marks": 0,
+      "question_marks": 1,
+      "caps_words": 0,
+      "emotional_intensity": 0.0,
+      "emotion_counts": {
+        "anger": 0,
+        "fear": 0,
+        "sadness": 0,
+        "joy": 0
+      },
+      "dominant_emotion": "neutral"
+    },
+    "extracted_locations": [
+      "Mumbai"
+    ]
+  },
+  {
+    "text": "Happy to report that the park maintenance in Chennai has improved. Clean and well-maintained green spaces for families. #ParkMaintenance",
+    "source": "twitter",
+    "timestamp": "2025-06-19T09:29:54.453253",
+    "author_location": "Chennai, India",
+    "template_category": "parks",
+    "template_sentiment": "positive",
+    "template_urgency": "low",
+    "cleaned_text": "Happy to report that the park maintenance in Chennai has improved. Clean and well-maintained green spaces for families. ParkMaintenance",
+    "keywords": [
+      {
+        "keyword": "park",
+        "score": 2.4
+      },
+      {
+        "keyword": "maintenance",
+        "score": 2.4
+      }
+    ],
+    "keyword_categories": {
+      "water_issues": [],
+      "power_issues": [],
+      "road_transport": [],
+      "waste_sanitation": [],
+      "infrastructure": [
+        "park"
+      ],
+      "general_civic": [
+        "maintenance"
+      ]
+    },
+    "sentiment": "positive",
+    "sentiment_confidence": 1.0,
+    "vader_compound": 0.8591,
+    "urgency": "low",
+    "emotional_indicators": {
+      "exclamation_marks": 0,
+      "question_marks": 0,
+      "caps_words": 0,
+      "emotional_intensity": 0.0,
+      "emotion_counts": {
+        "anger": 0,
+        "fear": 0,
+        "sadness": 0,
+        "joy": 1
+      },
+      "dominant_emotion": "joy"
+    },
+    "extracted_locations": [
+      "Chennai"
+    ]
+  },
+  {
+    "text": "Garbage collection has improved significantly in Kolkata over the past month. Thanks to the efficient work by the sanitation department. #ImprovedServices",
+    "source": "twitter",
+    "timestamp": "2025-05-29T22:29:54.453253",
+    "author_location": "Kolkata, India",
+    "template_category": "sanitation",
+    "template_sentiment": "positive",
+    "template_urgency": "low",
+    "cleaned_text": "Garbage collection has improved significantly in Kolkata over the past month. Thanks to the efficient work by the sanitation department. ImprovedServices",
+    "keywords": [
+      {
+        "keyword": "garbage collection",
+        "score": 2.0
+      },
+      {
+        "keyword": "garbage",
+        "score": 1.2
+      },
+      {
+        "keyword": "sanitation",
+        "score": 1.0
+      }
+    ],
+    "keyword_categories": {
+      "water_issues": [],
+      "power_issues": [],
+      "road_transport": [],
+      "waste_sanitation": [
+        "garbage collection",
+        "garbage",
+        "sanitation"
+      ],
+      "infrastructure": [],
+      "general_civic": []
+    },
+    "sentiment": "positive",
+    "sentiment_confidence": 0.9316,
+    "vader_compound": 0.8316,
+    "urgency": "low",
+    "emotional_indicators": {
+      "exclamation_marks": 0,
+      "question_marks": 0,
+      "caps_words": 0,
+      "emotional_intensity": 0.0,
+      "emotion_counts": {
+        "anger": 0,
+        "fear": 0,
+        "sadness": 0,
+        "joy": 0
+      },
+      "dominant_emotion": "neutral"
+    },
+    "extracted_locations": [
+      "Kolkata"
+    ]
+  },
+  {
+    "text": "Public transport service has become very unreliable in Bangalore. Buses are irregular and overcrowded. Need better management. #PublicTransport",
+    "source": "twitter",
+    "timestamp": "2025-06-05T00:29:54.453253",
+    "author_location": "Bangalore, India",
+    "template_category": "transport",
+    "template_sentiment": "negative",
+    "template_urgency": "medium",
+    "cleaned_text": "Public transport service has become very unreliable in Bangalore. Buses are irregular and overcrowded. Need better management. PublicTransport",
+    "keywords": [
+      {
+        "keyword": "public",
+        "score": 2.4
+      },
+      {
+        "keyword": "transport",
+        "score": 2.4
+      },
+      {
+        "keyword": "public transport",
+        "score": 2.0
+      },
+      {
+        "keyword": "bus",
+        "score": 1.0
+      }
+    ],
+    "keyword_categories": {
+      "water_issues": [],
+      "power_issues": [],
+      "road_transport": [
+        "transport",
+        "public transport",
+        "bus"
+      ],
+      "waste_sanitation": [],
+      "infrastructure": [],
+      "general_civic": [
+        "public"
+      ]
+    },
+    "sentiment": "positive",
+    "sentiment_confidence": 0.5404,
+    "vader_compound": 0.4404,
+    "urgency": "low",
+    "emotional_indicators": {
+      "exclamation_marks": 0,
+      "question_marks": 0,
+      "caps_words": 0,
+      "emotional_intensity": 0.0,
+      "emotion_counts": {
+        "anger": 0,
+        "fear": 0,
+        "sadness": 0,
+        "joy": 0
+      },
+      "dominant_emotion": "neutral"
+    },
+    "extracted_locations": [
+      "Bangalore"
+    ]
+  },
+  {
+    "text": "News: The municipal corporation in Pune announced new measures to address the water supply issues. The initiative includes installation of new pipelines and improvement of existing infrastructure.",
+    "source": "news",
+    "timestamp": "2025-06-13T17:29:54.453253",
+    "author_location": null,
+    "template_category": "water",
+    "template_sentiment": "positive",
+    "template_urgency": "low",
+    "cleaned_text": "News: The municipal corporation in Pune announced new measures to address the water supply issues. The initiative includes installation of new pipelines and improvement of existing infrastructure.",
+    "keywords": [
+      {
+        "keyword": "water supply",
+        "score": 2.0
+      },
+      {
+        "keyword": "municipal corporation",
+        "score": 2.0
+      },
+      {
+        "keyword": "municipal",
+        "score": 1.2
+      },
+      {
+        "keyword": "corporation",
+        "score": 1.2
+      },
+      {
+        "keyword": "water",
+        "score": 1.0
+      }
+    ],
+    "keyword_categories": {
+      "water_issues": [
+        "water supply",
+        "water"
+      ],
+      "power_issues": [],
+      "road_transport": [],
+      "waste_sanitation": [],
+      "infrastructure": [],
+      "general_civic": [
+        "municipal corporation",
+        "municipal",
+        "corporation"
+      ]
+    },
+    "sentiment": "positive",
+    "sentiment_confidence": 0.4588,
+    "vader_compound": 0.4588,
+    "urgency": "low",
+    "emotional_indicators": {
+      "exclamation_marks": 0,
+      "question_marks": 0,
+      "caps_words": 0,
+      "emotional_intensity": 0.0,
+      "emotion_counts": {
+        "anger": 0,
+        "fear": 0,
+        "sadness": 0,
+        "joy": 0
+      },
+      "dominant_emotion": "neutral"
+    },
+    "extracted_locations": [
+      "Pune"
+    ]
+  },
+  {
+    "text": "Terrible road conditions in Bangalore. Potholes everywhere causing traffic problems and vehicle damage. The municipal corporation needs to fix this URGENTLY!!! #RoadRepair #Bangalore",
+    "source": "twitter",
+    "timestamp": "2025-05-28T01:29:54.453253",
+    "author_location": "Bangalore, India",
+    "template_category": "roads",
+    "template_sentiment": "negative",
+    "template_urgency": "high",
+    "cleaned_text": "Terrible road conditions in Bangalore. Potholes everywhere causing traffic problems and vehicle damage. The municipal corporation needs to fix this URGENTLY!! RoadRepair Bangalore",
+    "keywords": [
+      {
+        "keyword": "road",
+        "score": 2.4
+      },
+      {
+        "keyword": "road condition",
+        "score": 2.0
+      },
+      {
+        "keyword": "traffic problem",
+        "score": 2.0
+      },
+      {
+        "keyword": "municipal corporation",
+        "score": 2.0
+      },
+      {
+        "keyword": "pothole",
+        "score": 1.2
+      }
+    ],
+    "keyword_categories": {
+      "water_issues": [],
+      "power_issues": [],
+      "road_transport": [
+        "road",
+        "road condition",
+        "traffic problem",
+        "pothole"
+      ],
+      "waste_sanitation": [],
+      "infrastructure": [],
+      "general_civic": [
+        "municipal corporation"
+      ]
+    },
+    "sentiment": "negative",
+    "sentiment_confidence": 1.0,
+    "vader_compound": -0.8619,
+    "urgency": "high",
+    "emotional_indicators": {
+      "exclamation_marks": 3,
+      "question_marks": 0,
+      "caps_words": 1,
+      "emotional_intensity": 3.5,
+      "emotion_counts": {
+        "anger": 0,
+        "fear": 0,
+        "sadness": 0,
+        "joy": 0
+      },
+      "dominant_emotion": "neutral"
+    },
+    "extracted_locations": [
+      "Bangalore"
+    ]
+  },
+  {
+    "text": "Happy to report that the park maintenance in Hyderabad has improved. Clean and well-maintained green spaces for families. #ParkMaintenance",
+    "source": "twitter",
+    "timestamp": "2025-05-26T23:29:54.453253",
+    "author_location": "Hyderabad, India",
+    "template_category": "parks",
+    "template_sentiment": "positive",
+    "template_urgency": "low",
+    "cleaned_text": "Happy to report that the park maintenance in Hyderabad has improved. Clean and well-maintained green spaces for families. ParkMaintenance",
+    "keywords": [
+      {
+        "keyword": "park",
+        "score": 2.4
+      },
+      {
+        "keyword": "maintenance",
+        "score": 2.4
+      }
+    ],
+    "keyword_categories": {
+      "water_issues": [],
+      "power_issues": [],
+      "road_transport": [],
+      "waste_sanitation": [],
+      "infrastructure": [
+        "park"
+      ],
+      "general_civic": [
+        "maintenance"
+      ]
+    },
+    "sentiment": "positive",
+    "sentiment_confidence": 1.0,
+    "vader_compound": 0.8591,
+    "urgency": "low",
+    "emotional_indicators": {
+      "exclamation_marks": 0,
+      "question_marks": 0,
+      "caps_words": 0,
+      "emotional_intensity": 0.0,
+      "emotion_counts": {
+        "anger": 0,
+        "fear": 0,
+        "sadness": 0,
+        "joy": 1
+      },
+      "dominant_emotion": "joy"
+    },
+    "extracted_locations": [
+      "Hyderabad"
+    ]
+  },
+  {
+    "text": "Garbage collection has improved significantly in Hyderabad over the past month. Thanks to the efficient work by the sanitation department. #ImprovedServices",
+    "source": "twitter",
+    "timestamp": "2025-06-21T14:29:54.453253",
+    "author_location": "Hyderabad, India",
+    "template_category": "sanitation",
+    "template_sentiment": "positive",
+    "template_urgency": "low",
+    "cleaned_text": "Garbage collection has improved significantly in Hyderabad over the past month. Thanks to the efficient work by the sanitation department. ImprovedServices",
+    "keywords": [
+      {
+        "keyword": "garbage collection",
+        "score": 2.0
+      },
+      {
+        "keyword": "garbage",
+        "score": 1.2
+      },
+      {
+        "keyword": "sanitation",
+        "score": 1.0
+      }
+    ],
+    "keyword_categories": {
+      "water_issues": [],
+      "power_issues": [],
+      "road_transport": [],
+      "waste_sanitation": [
+        "garbage collection",
+        "garbage",
+        "sanitation"
+      ],
+      "infrastructure": [],
+      "general_civic": []
+    },
+    "sentiment": "positive",
+    "sentiment_confidence": 0.9316,
+    "vader_compound": 0.8316,
+    "urgency": "low",
+    "emotional_indicators": {
+      "exclamation_marks": 0,
+      "question_marks": 0,
+      "caps_words": 0,
+      "emotional_intensity": 0.0,
+      "emotion_counts": {
+        "anger": 0,
+        "fear": 0,
+        "sadness": 0,
+        "joy": 0
+      },
+      "dominant_emotion": "neutral"
+    },
+    "extracted_locations": [
+      "Hyderabad"
+    ]
+  },
+  {
+    "text": "Street lights are not working in our area in Kolkata. Safety concerns at night. Request immediate repair work. #StreetLights",
+    "source": "twitter",
+    "timestamp": "2025-06-18T18:29:54.453253",
+    "author_location": "Kolkata, India",
+    "template_category": "infrastructure",
+    "template_sentiment": "negative",
+    "template_urgency": "medium",
+    "cleaned_text": "Street lights are not working in our area in Kolkata. Safety concerns at night. Request immediate repair work. StreetLights",
+    "keywords": [
+      {
+        "keyword": "street",
+        "score": 2.4
+      },
+      {
+        "keyword": "light",
+        "score": 2.4
+      },
+      {
+        "keyword": "street light",
+        "score": 2.0
+      },
+      {
+        "keyword": "repair",
+        "score": 1.0
+      },
+      {
+        "keyword": "concern",
+        "score": 1.0
+      }
+    ],
+    "keyword_categories": {
+      "water_issues": [],
+      "power_issues": [],
+      "road_transport": [],
+      "waste_sanitation": [],
+      "infrastructure": [
+        "street",
+        "light",
+        "street light"
+      ],
+      "general_civic": [
+        "repair",
+        "concern"
+      ]
+    },
+    "sentiment": "positive",
+    "sentiment_confidence": 0.5215,
+    "vader_compound": 0.4215,
+    "urgency": "low",
+    "emotional_indicators": {
+      "exclamation_marks": 0,
+      "question_marks": 0,
+      "caps_words": 0,
+      "emotional_intensity": 0.0,
+      "emotion_counts": {
+        "anger": 0,
+        "fear": 0,
+        "sadness": 0,
+        "joy": 0
+      },
+      "dominant_emotion": "neutral"
+    },
+    "extracted_locations": [
+      "Kolkata"
+    ]
+  },
+  {
+    "text": "Power outage in Delhi for 8 hours. This is completely unacceptable. When will the electricity board take action? #PowerOutage",
+    "source": "twitter",
+    "timestamp": "2025-05-31T04:29:54.453253",
+    "author_location": "Delhi, India",
+    "template_category": "power",
+    "template_sentiment": "negative",
+    "template_urgency": "medium",
+    "cleaned_text": "Power outage in Delhi for 8 hours. This is completely unacceptable. When will the electricity board take action? PowerOutage",
+    "keywords": [
+      {
+        "keyword": "power",
+        "score": 2.4
+      },
+      {
+        "keyword": "outage",
+        "score": 2.4
+      },
+      {
+        "keyword": "power outage",
+        "score": 2.0
+      },
+      {
+        "keyword": "electricity",
+        "score": 1.0
+      }
+    ],
+    "keyword_categories": {
+      "water_issues": [],
+      "power_issues": [
+        "power",
+        "outage",
+        "power outage",
+        "electricity"
+      ],
+      "road_transport": [],
+      "waste_sanitation": [],
+      "infrastructure": [],
+      "general_civic": []
+    },
+    "sentiment": "negative",
+    "sentiment_confidence": 0.5095,
+    "vader_compound": -0.5095,
+    "urgency": "medium",
+    "emotional_indicators": {
+      "exclamation_marks": 0,
+      "question_marks": 1,
+      "caps_words": 0,
+      "emotional_intensity": 0.0,
+      "emotion_counts": {
+        "anger": 0,
+        "fear": 0,
+        "sadness": 0,
+        "joy": 0
+      },
+      "dominant_emotion": "neutral"
+    },
+    "extracted_locations": [
+      "Delhi"
+    ]
+  },
+  {
+    "text": "The municipal corporation in Bangalore announced new measures to address the water supply issues. The initiative includes installation of new pipelines and improvement of existing infrastructure.",
+    "source": "twitter",
+    "timestamp": "2025-06-06T13:29:54.453253",
+    "author_location": "Bangalore, India",
+    "template_category": "water",
+    "template_sentiment": "positive",
+    "template_urgency": "low",
+    "cleaned_text": "The municipal corporation in Bangalore announced new measures to address the water supply issues. The initiative includes installation of new pipelines and improvement of existing infrastructure.",
+    "keywords": [
+      {
+        "keyword": "water supply",
+        "score": 2.0
+      },
+      {
+        "keyword": "municipal corporation",
+        "score": 2.0
+      },
+      {
+        "keyword": "municipal",
+        "score": 1.2
+      },
+      {
+        "keyword": "corporation",
+        "score": 1.2
+      },
+      {
+        "keyword": "water",
+        "score": 1.0
+      }
+    ],
+    "keyword_categories": {
+      "water_issues": [
+        "water supply",
+        "water"
+      ],
+      "power_issues": [],
+      "road_transport": [],
+      "waste_sanitation": [],
+      "infrastructure": [],
+      "general_civic": [
+        "municipal corporation",
+        "municipal",
+        "corporation"
+      ]
+    },
+    "sentiment": "positive",
+    "sentiment_confidence": 0.4588,
+    "vader_compound": 0.4588,
+    "urgency": "low",
+    "emotional_indicators": {
+      "exclamation_marks": 0,
+      "question_marks": 0,
+      "caps_words": 0,
+      "emotional_intensity": 0.0,
+      "emotion_counts": {
+        "anger": 0,
+        "fear": 0,
+        "sadness": 0,
+        "joy": 0
+      },
+      "dominant_emotion": "neutral"
+    },
+    "extracted_locations": [
+      "Bangalore"
+    ]
+  },
+  {
+    "text": "Street lights are not working in our area in Hyderabad. Safety concerns at night. Request immediate repair work. #StreetLights",
+    "source": "twitter",
+    "timestamp": "2025-06-01T17:29:54.453253",
+    "author_location": "Hyderabad, India",
+    "template_category": "infrastructure",
+    "template_sentiment": "negative",
+    "template_urgency": "medium",
+    "cleaned_text": "Street lights are not working in our area in Hyderabad. Safety concerns at night. Request immediate repair work. StreetLights",
+    "keywords": [
+      {
+        "keyword": "street",
+        "score": 2.4
+      },
+      {
+        "keyword": "light",
+        "score": 2.4
+      },
+      {
+        "keyword": "street light",
+        "score": 2.0
+      },
+      {
+        "keyword": "repair",
+        "score": 1.0
+      },
+      {
+        "keyword": "concern",
+        "score": 1.0
+      }
+    ],
+    "keyword_categories": {
+      "water_issues": [],
+      "power_issues": [],
+      "road_transport": [],
+      "waste_sanitation": [],
+      "infrastructure": [
+        "street",
+        "light",
+        "street light"
+      ],
+      "general_civic": [
+        "repair",
+        "concern"
+      ]
+    },
+    "sentiment": "positive",
+    "sentiment_confidence": 0.5215,
+    "vader_compound": 0.4215,
+    "urgency": "low",
+    "emotional_indicators": {
+      "exclamation_marks": 0,
+      "question_marks": 0,
+      "caps_words": 0,
+      "emotional_intensity": 0.0,
+      "emotion_counts": {
+        "anger": 0,
+        "fear": 0,
+        "sadness": 0,
+        "joy": 0
+      },
+      "dominant_emotion": "neutral"
+    },
+    "extracted_locations": [
+      "Hyderabad"
+    ]
+  },
+  {
+    "text": "Street lights are not working in our area in Chennai. Safety concerns at night. Request immediate repair work. #StreetLights",
+    "source": "twitter",
+    "timestamp": "2025-06-08T13:29:54.453253",
+    "author_location": "Chennai, India",
+    "template_category": "infrastructure",
+    "template_sentiment": "negative",
+    "template_urgency": "medium",
+    "cleaned_text": "Street lights are not working in our area in Chennai. Safety concerns at night. Request immediate repair work. StreetLights",
+    "keywords": [
+      {
+        "keyword": "street",
+        "score": 2.4
+      },
+      {
+        "keyword": "light",
+        "score": 2.4
+      },
+      {
+        "keyword": "street light",
+        "score": 2.0
+      },
+      {
+        "keyword": "repair",
+        "score": 1.0
+      },
+      {
+        "keyword": "concern",
+        "score": 1.0
+      }
+    ],
+    "keyword_categories": {
+      "water_issues": [],
+      "power_issues": [],
+      "road_transport": [],
+      "waste_sanitation": [],
+      "infrastructure": [
+        "street",
+        "light",
+        "street light"
+      ],
+      "general_civic": [
+        "repair",
+        "concern"
+      ]
+    },
+    "sentiment": "positive",
+    "sentiment_confidence": 0.5215,
+    "vader_compound": 0.4215,
+    "urgency": "low",
+    "emotional_indicators": {
+      "exclamation_marks": 0,
+      "question_marks": 0,
+      "caps_words": 0,
+      "emotional_intensity": 0.0,
+      "emotion_counts": {
+        "anger": 0,
+        "fear": 0,
+        "sadness": 0,
+        "joy": 0
+      },
+      "dominant_emotion": "neutral"
+    },
+    "extracted_locations": [
+      "Chennai"
+    ]
+  },
+  {
+    "text": "News: Water supply has been disrupted in Pune for the past 2 days. Residents are facing severe shortage.",
+    "source": "news",
+    "timestamp": "2025-06-07T23:29:54.453253",
+    "author_location": null,
+    "template_category": "water",
+    "template_sentiment": "negative",
+    "template_urgency": "high",
+    "cleaned_text": "News: Water supply has been disrupted in Pune for the past 2 days. Residents are facing severe shortage.",
+    "keywords": [
+      {
+        "keyword": "water supply",
+        "score": 2.0
+      },
+      {
+        "keyword": "water",
+        "score": 1.2
+      },
+      {
+        "keyword": "supply",
+        "score": 1.2
+      },
+      {
+        "keyword": "shortage",
+        "score": 1.0
+      }
+    ],
+    "keyword_categories": {
+      "water_issues": [
+        "water supply",
+        "water",
+        "supply",
+        "shortage"
+      ],
+      "power_issues": [],
+      "road_transport": [],
+      "waste_sanitation": [],
+      "infrastructure": [],
+      "general_civic": []
+    },
+    "sentiment": "negative",
+    "sentiment_confidence": 0.5574,
+    "vader_compound": -0.5574,
+    "urgency": "medium",
+    "emotional_indicators": {
+      "exclamation_marks": 0,
+      "question_marks": 0,
+      "caps_words": 0,
+      "emotional_intensity": 0.0,
+      "emotion_counts": {
+        "anger": 0,
+        "fear": 0,
+        "sadness": 0,
+        "joy": 0
+      },
+      "dominant_emotion": "neutral"
+    },
+    "extracted_locations": [
+      "Pune"
+    ]
+  },
+  {
+    "text": "Power outage in Pune for 10 hours. This is completely unacceptable. When will the electricity board take action? #PowerOutage",
+    "source": "twitter",
+    "timestamp": "2025-06-09T05:29:54.453253",
+    "author_location": "Pune, India",
+    "template_category": "power",
+    "template_sentiment": "negative",
+    "template_urgency": "medium",
+    "cleaned_text": "Power outage in Pune for 10 hours. This is completely unacceptable. When will the electricity board take action? PowerOutage",
+    "keywords": [
+      {
+        "keyword": "power",
+        "score": 2.4
+      },
+      {
+        "keyword": "outage",
+        "score": 2.4
+      },
+      {
+        "keyword": "power outage",
+        "score": 2.0
+      },
+      {
+        "keyword": "electricity",
+        "score": 1.0
+      }
+    ],
+    "keyword_categories": {
+      "water_issues": [],
+      "power_issues": [
+        "power",
+        "outage",
+        "power outage",
+        "electricity"
+      ],
+      "road_transport": [],
+      "waste_sanitation": [],
+      "infrastructure": [],
+      "general_civic": []
+    },
+    "sentiment": "negative",
+    "sentiment_confidence": 0.5095,
+    "vader_compound": -0.5095,
+    "urgency": "medium",
+    "emotional_indicators": {
+      "exclamation_marks": 0,
+      "question_marks": 1,
+      "caps_words": 0,
+      "emotional_intensity": 0.0,
+      "emotion_counts": {
+        "anger": 0,
+        "fear": 0,
+        "sadness": 0,
+        "joy": 0
+      },
+      "dominant_emotion": "neutral"
+    },
+    "extracted_locations": [
+      "Pune"
+    ]
+  },
+  {
+    "text": "News: Traffic signals not working at the main intersection in Mumbai. Creating chaos and safety concerns for commuters.",
+    "source": "news",
+    "timestamp": "2025-06-22T10:29:54.453253",
+    "author_location": null,
+    "template_category": "traffic",
+    "template_sentiment": "negative",
+    "template_urgency": "medium",
+    "cleaned_text": "News: Traffic signals not working at the main intersection in Mumbai. Creating chaos and safety concerns for commuters.",
+    "keywords": [
+      {
+        "keyword": "traffic signal",
+        "score": 2.0
+      },
+      {
+        "keyword": "traffic",
+        "score": 1.2
+      },
+      {
+        "keyword": "signal",
+        "score": 1.2
+      },
+      {
+        "keyword": "concern",
+        "score": 1.0
+      }
+    ],
+    "keyword_categories": {
+      "water_issues": [],
+      "power_issues": [],
+      "road_transport": [
+        "traffic signal",
+        "traffic",
+        "signal"
+      ],
+      "waste_sanitation": [],
+      "infrastructure": [],
+      "general_civic": [
+        "concern"
+      ]
+    },
+    "sentiment": "positive",
+    "sentiment_confidence": 0.0772,
+    "vader_compound": 0.0772,
+    "urgency": "low",
+    "emotional_indicators": {
+      "exclamation_marks": 0,
+      "question_marks": 0,
+      "caps_words": 0,
+      "emotional_intensity": 0.0,
+      "emotion_counts": {
+        "anger": 0,
+        "fear": 0,
+        "sadness": 0,
+        "joy": 0
+      },
+      "dominant_emotion": "neutral"
+    },
+    "extracted_locations": [
+      "Mumbai"
+    ]
+  },
+  {
+    "text": "Water supply has been disrupted in Pune for the past 4 days. Residents are facing severe shortage. @PMC please take immediate action! #WaterCrisis #Pune",
+    "source": "twitter",
+    "timestamp": "2025-06-23T21:29:54.453253",
+    "author_location": "Pune, India",
+    "template_category": "water",
+    "template_sentiment": "negative",
+    "template_urgency": "high",
+    "cleaned_text": "Water supply has been disrupted in Pune for the past 4 days. Residents are facing severe shortage. please take immediate action! WaterCrisis Pune",
+    "keywords": [
+      {
+        "keyword": "water",
+        "score": 2.4
+      },
+      {
+        "keyword": "water supply",
+        "score": 2.0
+      },
+      {
+        "keyword": "supply",
+        "score": 1.2
+      },
+      {
+        "keyword": "shortage",
+        "score": 1.0
+      },
+      {
+        "keyword": "crisis",
+        "score": 1.0
+      }
+    ],
+    "keyword_categories": {
+      "water_issues": [
+        "water",
+        "water supply",
+        "supply",
+        "shortage"
+      ],
+      "power_issues": [],
+      "road_transport": [],
+      "waste_sanitation": [],
+      "infrastructure": [],
+      "general_civic": [
+        "crisis"
+      ]
+    },
+    "sentiment": "negative",
+    "sentiment_confidence": 0.48019999999999996,
+    "vader_compound": -0.3802,
+    "urgency": "medium",
+    "emotional_indicators": {
+      "exclamation_marks": 1,
+      "question_marks": 0,
+      "caps_words": 1,
+      "emotional_intensity": 1.5,
+      "emotion_counts": {
+        "anger": 0,
+        "fear": 0,
+        "sadness": 0,
+        "joy": 0
+      },
+      "dominant_emotion": "neutral"
+    },
+    "extracted_locations": [
+      "Pune"
+    ]
+  },
+  {
+    "text": "Traffic signals not working at the main intersection in Bangalore. Creating chaos and safety concerns for commuters. #TrafficProblems",
+    "source": "twitter",
+    "timestamp": "2025-05-26T00:29:54.453253",
+    "author_location": "Bangalore, India",
+    "template_category": "traffic",
+    "template_sentiment": "negative",
+    "template_urgency": "medium",
+    "cleaned_text": "Traffic signals not working at the main intersection in Bangalore. Creating chaos and safety concerns for commuters. TrafficProblems",
+    "keywords": [
+      {
+        "keyword": "traffic",
+        "score": 2.4
+      },
+      {
+        "keyword": "traffic signal",
+        "score": 2.0
+      },
+      {
+        "keyword": "signal",
+        "score": 1.2
+      },
+      {
+        "keyword": "problem",
+        "score": 1.0
+      },
+      {
+        "keyword": "concern",
+        "score": 1.0
+      }
+    ],
+    "keyword_categories": {
+      "water_issues": [],
+      "power_issues": [],
+      "road_transport": [
+        "traffic",
+        "traffic signal",
+        "signal"
+      ],
+      "waste_sanitation": [],
+      "infrastructure": [],
+      "general_civic": [
+        "problem",
+        "concern"
+      ]
+    },
+    "sentiment": "positive",
+    "sentiment_confidence": 0.0772,
+    "vader_compound": 0.0772,
+    "urgency": "low",
+    "emotional_indicators": {
+      "exclamation_marks": 0,
+      "question_marks": 0,
+      "caps_words": 0,
+      "emotional_intensity": 0.0,
+      "emotion_counts": {
+        "anger": 0,
+        "fear": 0,
+        "sadness": 0,
+        "joy": 0
+      },
+      "dominant_emotion": "neutral"
+    },
+    "extracted_locations": [
+      "Bangalore"
+    ]
+  },
+  {
+    "text": "Garbage collection has improved significantly in Hyderabad over the past month. Thanks to the efficient work by the sanitation department. #ImprovedServices",
+    "source": "twitter",
+    "timestamp": "2025-06-20T10:29:54.453253",
+    "author_location": "Hyderabad, India",
+    "template_category": "sanitation",
+    "template_sentiment": "positive",
+    "template_urgency": "low",
+    "cleaned_text": "Garbage collection has improved significantly in Hyderabad over the past month. Thanks to the efficient work by the sanitation department. ImprovedServices",
+    "keywords": [
+      {
+        "keyword": "garbage collection",
+        "score": 2.0
+      },
+      {
+        "keyword": "garbage",
+        "score": 1.2
+      },
+      {
+        "keyword": "sanitation",
+        "score": 1.0
+      }
+    ],
+    "keyword_categories": {
+      "water_issues": [],
+      "power_issues": [],
+      "road_transport": [],
+      "waste_sanitation": [
+        "garbage collection",
+        "garbage",
+        "sanitation"
+      ],
+      "infrastructure": [],
+      "general_civic": []
+    },
+    "sentiment": "positive",
+    "sentiment_confidence": 0.9316,
+    "vader_compound": 0.8316,
+    "urgency": "low",
+    "emotional_indicators": {
+      "exclamation_marks": 0,
+      "question_marks": 0,
+      "caps_words": 0,
+      "emotional_intensity": 0.0,
+      "emotion_counts": {
+        "anger": 0,
+        "fear": 0,
+        "sadness": 0,
+        "joy": 0
+      },
+      "dominant_emotion": "neutral"
+    },
+    "extracted_locations": [
+      "Hyderabad"
+    ]
+  },
+  {
+    "text": "Public transport service has become very unreliable in Pune. Buses are irregular and overcrowded. Need better management. #PublicTransport",
+    "source": "twitter",
+    "timestamp": "2025-06-18T03:29:54.453253",
+    "author_location": "Pune, India",
+    "template_category": "transport",
+    "template_sentiment": "negative",
+    "template_urgency": "medium",
+    "cleaned_text": "Public transport service has become very unreliable in Pune. Buses are irregular and overcrowded. Need better management. PublicTransport",
+    "keywords": [
+      {
+        "keyword": "public",
+        "score": 2.4
+      },
+      {
+        "keyword": "transport",
+        "score": 2.4
+      },
+      {
+        "keyword": "public transport",
+        "score": 2.0
+      },
+      {
+        "keyword": "bus",
+        "score": 1.0
+      }
+    ],
+    "keyword_categories": {
+      "water_issues": [],
+      "power_issues": [],
+      "road_transport": [
+        "transport",
+        "public transport",
+        "bus"
+      ],
+      "waste_sanitation": [],
+      "infrastructure": [],
+      "general_civic": [
+        "public"
+      ]
+    },
+    "sentiment": "positive",
+    "sentiment_confidence": 0.5404,
+    "vader_compound": 0.4404,
+    "urgency": "low",
+    "emotional_indicators": {
+      "exclamation_marks": 0,
+      "question_marks": 0,
+      "caps_words": 0,
+      "emotional_intensity": 0.0,
+      "emotion_counts": {
+        "anger": 0,
+        "fear": 0,
+        "sadness": 0,
+        "joy": 0
+      },
+      "dominant_emotion": "neutral"
+    },
+    "extracted_locations": [
+      "Pune"
+    ]
+  },
+  {
+    "text": "News: Street lights are not working in our area in Hyderabad. Safety concerns at night. Request immediate repair work.",
+    "source": "news",
+    "timestamp": "2025-06-13T11:29:54.453253",
+    "author_location": null,
+    "template_category": "infrastructure",
+    "template_sentiment": "negative",
+    "template_urgency": "medium",
+    "cleaned_text": "News: Street lights are not working in our area in Hyderabad. Safety concerns at night. Request immediate repair work.",
+    "keywords": [
+      {
+        "keyword": "street light",
+        "score": 2.0
+      },
+      {
+        "keyword": "street",
+        "score": 1.2
+      },
+      {
+        "keyword": "light",
+        "score": 1.2
+      },
+      {
+        "keyword": "repair",
+        "score": 1.0
+      },
+      {
+        "keyword": "concern",
+        "score": 1.0
+      }
+    ],
+    "keyword_categories": {
+      "water_issues": [],
+      "power_issues": [],
+      "road_transport": [],
+      "waste_sanitation": [],
+      "infrastructure": [
+        "street light",
+        "street",
+        "light"
+      ],
+      "general_civic": [
+        "repair",
+        "concern"
+      ]
+    },
+    "sentiment": "positive",
+    "sentiment_confidence": 0.5215,
+    "vader_compound": 0.4215,
+    "urgency": "low",
+    "emotional_indicators": {
+      "exclamation_marks": 0,
+      "question_marks": 0,
+      "caps_words": 0,
+      "emotional_intensity": 0.0,
+      "emotion_counts": {
+        "anger": 0,
+        "fear": 0,
+        "sadness": 0,
+        "joy": 0
+      },
+      "dominant_emotion": "neutral"
+    },
+    "extracted_locations": [
+      "Hyderabad"
+    ]
+  },
+  {
+    "text": "News: Water supply has been disrupted in Pune for the past 1 days. Residents are facing severe shortage.",
+    "source": "news",
+    "timestamp": "2025-06-16T09:29:54.453253",
+    "author_location": null,
+    "template_category": "water",
+    "template_sentiment": "negative",
+    "template_urgency": "high",
+    "cleaned_text": "News: Water supply has been disrupted in Pune for the past 1 days. Residents are facing severe shortage.",
+    "keywords": [
+      {
+        "keyword": "water supply",
+        "score": 2.0
+      },
+      {
+        "keyword": "water",
+        "score": 1.2
+      },
+      {
+        "keyword": "supply",
+        "score": 1.2
+      },
+      {
+        "keyword": "shortage",
+        "score": 1.0
+      }
+    ],
+    "keyword_categories": {
+      "water_issues": [
+        "water supply",
+        "water",
+        "supply",
+        "shortage"
+      ],
+      "power_issues": [],
+      "road_transport": [],
+      "waste_sanitation": [],
+      "infrastructure": [],
+      "general_civic": []
+    },
+    "sentiment": "negative",
+    "sentiment_confidence": 0.5574,
+    "vader_compound": -0.5574,
+    "urgency": "medium",
+    "emotional_indicators": {
+      "exclamation_marks": 0,
+      "question_marks": 0,
+      "caps_words": 0,
+      "emotional_intensity": 0.0,
+      "emotion_counts": {
+        "anger": 0,
+        "fear": 0,
+        "sadness": 0,
+        "joy": 0
+      },
+      "dominant_emotion": "neutral"
+    },
+    "extracted_locations": [
+      "Pune"
+    ]
+  },
+  {
+    "text": "Garbage collection has improved significantly in Hyderabad over the past month. Thanks to the efficient work by the sanitation department. #ImprovedServices",
+    "source": "twitter",
+    "timestamp": "2025-06-01T09:29:54.453253",
+    "author_location": "Hyderabad, India",
+    "template_category": "sanitation",
+    "template_sentiment": "positive",
+    "template_urgency": "low",
+    "cleaned_text": "Garbage collection has improved significantly in Hyderabad over the past month. Thanks to the efficient work by the sanitation department. ImprovedServices",
+    "keywords": [
+      {
+        "keyword": "garbage collection",
+        "score": 2.0
+      },
+      {
+        "keyword": "garbage",
+        "score": 1.2
+      },
+      {
+        "keyword": "sanitation",
+        "score": 1.0
+      }
+    ],
+    "keyword_categories": {
+      "water_issues": [],
+      "power_issues": [],
+      "road_transport": [],
+      "waste_sanitation": [
+        "garbage collection",
+        "garbage",
+        "sanitation"
+      ],
+      "infrastructure": [],
+      "general_civic": []
+    },
+    "sentiment": "positive",
+    "sentiment_confidence": 0.9316,
+    "vader_compound": 0.8316,
+    "urgency": "low",
+    "emotional_indicators": {
+      "exclamation_marks": 0,
+      "question_marks": 0,
+      "caps_words": 0,
+      "emotional_intensity": 0.0,
+      "emotion_counts": {
+        "anger": 0,
+        "fear": 0,
+        "sadness": 0,
+        "joy": 0
+      },
+      "dominant_emotion": "neutral"
+    },
+    "extracted_locations": [
+      "Hyderabad"
+    ]
+  },
+  {
+    "text": "Street lights are not working in our area in Bangalore. Safety concerns at night. Request immediate repair work. #StreetLights",
+    "source": "twitter",
+    "timestamp": "2025-06-04T13:29:54.453253",
+    "author_location": "Bangalore, India",
+    "template_category": "infrastructure",
+    "template_sentiment": "negative",
+    "template_urgency": "medium",
+    "cleaned_text": "Street lights are not working in our area in Bangalore. Safety concerns at night. Request immediate repair work. StreetLights",
+    "keywords": [
+      {
+        "keyword": "street",
+        "score": 2.4
+      },
+      {
+        "keyword": "light",
+        "score": 2.4
+      },
+      {
+        "keyword": "street light",
+        "score": 2.0
+      },
+      {
+        "keyword": "repair",
+        "score": 1.0
+      },
+      {
+        "keyword": "concern",
+        "score": 1.0
+      }
+    ],
+    "keyword_categories": {
+      "water_issues": [],
+      "power_issues": [],
+      "road_transport": [],
+      "waste_sanitation": [],
+      "infrastructure": [
+        "street",
+        "light",
+        "street light"
+      ],
+      "general_civic": [
+        "repair",
+        "concern"
+      ]
+    },
+    "sentiment": "positive",
+    "sentiment_confidence": 0.5215,
+    "vader_compound": 0.4215,
+    "urgency": "low",
+    "emotional_indicators": {
+      "exclamation_marks": 0,
+      "question_marks": 0,
+      "caps_words": 0,
+      "emotional_intensity": 0.0,
+      "emotion_counts": {
+        "anger": 0,
+        "fear": 0,
+        "sadness": 0,
+        "joy": 0
+      },
+      "dominant_emotion": "neutral"
+    },
+    "extracted_locations": [
+      "Bangalore"
+    ]
+  },
+  {
+    "text": "Power outage in Bangalore for 9 hours. This is completely unacceptable. When will the electricity board take action? #PowerOutage",
+    "source": "twitter",
+    "timestamp": "2025-06-05T22:29:54.453253",
+    "author_location": "Bangalore, India",
+    "template_category": "power",
+    "template_sentiment": "negative",
+    "template_urgency": "medium",
+    "cleaned_text": "Power outage in Bangalore for 9 hours. This is completely unacceptable. When will the electricity board take action? PowerOutage",
+    "keywords": [
+      {
+        "keyword": "power",
+        "score": 2.4
+      },
+      {
+        "keyword": "outage",
+        "score": 2.4
+      },
+      {
+        "keyword": "power outage",
+        "score": 2.0
+      },
+      {
+        "keyword": "electricity",
+        "score": 1.0
+      }
+    ],
+    "keyword_categories": {
+      "water_issues": [],
+      "power_issues": [
+        "power",
+        "outage",
+        "power outage",
+        "electricity"
+      ],
+      "road_transport": [],
+      "waste_sanitation": [],
+      "infrastructure": [],
+      "general_civic": []
+    },
+    "sentiment": "negative",
+    "sentiment_confidence": 0.5095,
+    "vader_compound": -0.5095,
+    "urgency": "medium",
+    "emotional_indicators": {
+      "exclamation_marks": 0,
+      "question_marks": 1,
+      "caps_words": 0,
+      "emotional_intensity": 0.0,
+      "emotion_counts": {
+        "anger": 0,
+        "fear": 0,
+        "sadness": 0,
+        "joy": 0
+      },
+      "dominant_emotion": "neutral"
+    },
+    "extracted_locations": [
+      "Bangalore"
+    ]
+  },
+  {
+    "text": "Traffic signals not working at the main intersection in Pune. Creating chaos and safety concerns for commuters. #TrafficProblems",
+    "source": "twitter",
+    "timestamp": "2025-06-15T18:29:54.453253",
+    "author_location": "Pune, India",
+    "template_category": "traffic",
+    "template_sentiment": "negative",
+    "template_urgency": "medium",
+    "cleaned_text": "Traffic signals not working at the main intersection in Pune. Creating chaos and safety concerns for commuters. TrafficProblems",
+    "keywords": [
+      {
+        "keyword": "traffic",
+        "score": 2.4
+      },
+      {
+        "keyword": "traffic signal",
+        "score": 2.0
+      },
+      {
+        "keyword": "signal",
+        "score": 1.2
+      },
+      {
+        "keyword": "problem",
+        "score": 1.0
+      },
+      {
+        "keyword": "concern",
+        "score": 1.0
+      }
+    ],
+    "keyword_categories": {
+      "water_issues": [],
+      "power_issues": [],
+      "road_transport": [
+        "traffic",
+        "traffic signal",
+        "signal"
+      ],
+      "waste_sanitation": [],
+      "infrastructure": [],
+      "general_civic": [
+        "problem",
+        "concern"
+      ]
+    },
+    "sentiment": "positive",
+    "sentiment_confidence": 0.0772,
+    "vader_compound": 0.0772,
+    "urgency": "low",
+    "emotional_indicators": {
+      "exclamation_marks": 0,
+      "question_marks": 0,
+      "caps_words": 0,
+      "emotional_intensity": 0.0,
+      "emotion_counts": {
+        "anger": 0,
+        "fear": 0,
+        "sadness": 0,
+        "joy": 0
+      },
+      "dominant_emotion": "neutral"
+    },
+    "extracted_locations": [
+      "Pune"
+    ]
+  },
+  {
+    "text": "Happy to report that the park maintenance in Kolkata has improved. Clean and well-maintained green spaces for families. #ParkMaintenance",
+    "source": "twitter",
+    "timestamp": "2025-06-14T22:29:54.453253",
+    "author_location": "Kolkata, India",
+    "template_category": "parks",
+    "template_sentiment": "positive",
+    "template_urgency": "low",
+    "cleaned_text": "Happy to report that the park maintenance in Kolkata has improved. Clean and well-maintained green spaces for families. ParkMaintenance",
+    "keywords": [
+      {
+        "keyword": "park",
+        "score": 2.4
+      },
+      {
+        "keyword": "maintenance",
+        "score": 2.4
+      }
+    ],
+    "keyword_categories": {
+      "water_issues": [],
+      "power_issues": [],
+      "road_transport": [],
+      "waste_sanitation": [],
+      "infrastructure": [
+        "park"
+      ],
+      "general_civic": [
+        "maintenance"
+      ]
+    },
+    "sentiment": "positive",
+    "sentiment_confidence": 1.0,
+    "vader_compound": 0.8591,
+    "urgency": "low",
+    "emotional_indicators": {
+      "exclamation_marks": 0,
+      "question_marks": 0,
+      "caps_words": 0,
+      "emotional_intensity": 0.0,
+      "emotion_counts": {
+        "anger": 0,
+        "fear": 0,
+        "sadness": 0,
+        "joy": 1
+      },
+      "dominant_emotion": "joy"
+    },
+    "extracted_locations": [
+      "Kolkata"
+    ]
+  },
+  {
+    "text": "Happy to report that the park maintenance in Mumbai has improved. Clean and well-maintained green spaces for families. #ParkMaintenance",
+    "source": "twitter",
+    "timestamp": "2025-06-12T20:29:54.453253",
+    "author_location": "Mumbai, India",
+    "template_category": "parks",
+    "template_sentiment": "positive",
+    "template_urgency": "low",
+    "cleaned_text": "Happy to report that the park maintenance in Mumbai has improved. Clean and well-maintained green spaces for families. ParkMaintenance",
+    "keywords": [
+      {
+        "keyword": "park",
+        "score": 2.4
+      },
+      {
+        "keyword": "maintenance",
+        "score": 2.4
+      }
+    ],
+    "keyword_categories": {
+      "water_issues": [],
+      "power_issues": [],
+      "road_transport": [],
+      "waste_sanitation": [],
+      "infrastructure": [
+        "park"
+      ],
+      "general_civic": [
+        "maintenance"
+      ]
+    },
+    "sentiment": "positive",
+    "sentiment_confidence": 1.0,
+    "vader_compound": 0.8591,
+    "urgency": "low",
+    "emotional_indicators": {
+      "exclamation_marks": 0,
+      "question_marks": 0,
+      "caps_words": 0,
+      "emotional_intensity": 0.0,
+      "emotion_counts": {
+        "anger": 0,
+        "fear": 0,
+        "sadness": 0,
+        "joy": 1
+      },
+      "dominant_emotion": "joy"
+    },
+    "extracted_locations": [
+      "Mumbai"
+    ]
+  },
+  {
+    "text": "The municipal corporation in Bangalore announced new measures to address the water supply issues. The initiative includes installation of new pipelines and improvement of existing infrastructure.",
+    "source": "twitter",
+    "timestamp": "2025-06-01T07:29:54.453253",
+    "author_location": "Bangalore, India",
+    "template_category": "water",
+    "template_sentiment": "positive",
+    "template_urgency": "low",
+    "cleaned_text": "The municipal corporation in Bangalore announced new measures to address the water supply issues. The initiative includes installation of new pipelines and improvement of existing infrastructure.",
+    "keywords": [
+      {
+        "keyword": "water supply",
+        "score": 2.0
+      },
+      {
+        "keyword": "municipal corporation",
+        "score": 2.0
+      },
+      {
+        "keyword": "municipal",
+        "score": 1.2
+      },
+      {
+        "keyword": "corporation",
+        "score": 1.2
+      },
+      {
+        "keyword": "water",
+        "score": 1.0
+      }
+    ],
+    "keyword_categories": {
+      "water_issues": [
+        "water supply",
+        "water"
+      ],
+      "power_issues": [],
+      "road_transport": [],
+      "waste_sanitation": [],
+      "infrastructure": [],
+      "general_civic": [
+        "municipal corporation",
+        "municipal",
+        "corporation"
+      ]
+    },
+    "sentiment": "positive",
+    "sentiment_confidence": 0.4588,
+    "vader_compound": 0.4588,
+    "urgency": "low",
+    "emotional_indicators": {
+      "exclamation_marks": 0,
+      "question_marks": 0,
+      "caps_words": 0,
+      "emotional_intensity": 0.0,
+      "emotion_counts": {
+        "anger": 0,
+        "fear": 0,
+        "sadness": 0,
+        "joy": 0
+      },
+      "dominant_emotion": "neutral"
+    },
+    "extracted_locations": [
+      "Bangalore"
+    ]
+  },
+  {
+    "text": "Terrible road conditions in Hyderabad. Potholes everywhere causing traffic problems and vehicle damage. The municipal corporation needs to fix this URGENTLY!!! #RoadRepair #Hyderabad",
+    "source": "twitter",
+    "timestamp": "2025-05-28T04:29:54.453253",
+    "author_location": "Hyderabad, India",
+    "template_category": "roads",
+    "template_sentiment": "negative",
+    "template_urgency": "high",
+    "cleaned_text": "Terrible road conditions in Hyderabad. Potholes everywhere causing traffic problems and vehicle damage. The municipal corporation needs to fix this URGENTLY!! RoadRepair Hyderabad",
+    "keywords": [
+      {
+        "keyword": "road",
+        "score": 2.4
+      },
+      {
+        "keyword": "road condition",
+        "score": 2.0
+      },
+      {
+        "keyword": "traffic problem",
+        "score": 2.0
+      },
+      {
+        "keyword": "municipal corporation",
+        "score": 2.0
+      },
+      {
+        "keyword": "pothole",
+        "score": 1.2
+      }
+    ],
+    "keyword_categories": {
+      "water_issues": [],
+      "power_issues": [],
+      "road_transport": [
+        "road",
+        "road condition",
+        "traffic problem",
+        "pothole"
+      ],
+      "waste_sanitation": [],
+      "infrastructure": [],
+      "general_civic": [
+        "municipal corporation"
+      ]
+    },
+    "sentiment": "negative",
+    "sentiment_confidence": 1.0,
+    "vader_compound": -0.8619,
+    "urgency": "high",
+    "emotional_indicators": {
+      "exclamation_marks": 3,
+      "question_marks": 0,
+      "caps_words": 1,
+      "emotional_intensity": 3.5,
+      "emotion_counts": {
+        "anger": 0,
+        "fear": 0,
+        "sadness": 0,
+        "joy": 0
+      },
+      "dominant_emotion": "neutral"
+    },
+    "extracted_locations": [
+      "Hyderabad"
+    ]
+  },
+  {
+    "text": "The municipal corporation in Hyderabad announced new measures to address the water supply issues. The initiative includes installation of new pipelines and improvement of existing infrastructure.",
+    "source": "twitter",
+    "timestamp": "2025-05-26T23:29:54.453253",
+    "author_location": "Hyderabad, India",
+    "template_category": "water",
+    "template_sentiment": "positive",
+    "template_urgency": "low",
+    "cleaned_text": "The municipal corporation in Hyderabad announced new measures to address the water supply issues. The initiative includes installation of new pipelines and improvement of existing infrastructure.",
+    "keywords": [
+      {
+        "keyword": "water supply",
+        "score": 2.0
+      },
+      {
+        "keyword": "municipal corporation",
+        "score": 2.0
+      },
+      {
+        "keyword": "municipal",
+        "score": 1.2
+      },
+      {
+        "keyword": "corporation",
+        "score": 1.2
+      },
+      {
+        "keyword": "water",
+        "score": 1.0
+      }
+    ],
+    "keyword_categories": {
+      "water_issues": [
+        "water supply",
+        "water"
+      ],
+      "power_issues": [],
+      "road_transport": [],
+      "waste_sanitation": [],
+      "infrastructure": [],
+      "general_civic": [
+        "municipal corporation",
+        "municipal",
+        "corporation"
+      ]
+    },
+    "sentiment": "positive",
+    "sentiment_confidence": 0.4588,
+    "vader_compound": 0.4588,
+    "urgency": "low",
+    "emotional_indicators": {
+      "exclamation_marks": 0,
+      "question_marks": 0,
+      "caps_words": 0,
+      "emotional_intensity": 0.0,
+      "emotion_counts": {
+        "anger": 0,
+        "fear": 0,
+        "sadness": 0,
+        "joy": 0
+      },
+      "dominant_emotion": "neutral"
+    },
+    "extracted_locations": [
+      "Hyderabad"
+    ]
+  },
+  {
+    "text": "News: Happy to report that the park maintenance in Kolkata has improved. Clean and well-maintained green spaces for families.",
+    "source": "news",
+    "timestamp": "2025-06-08T12:29:54.453253",
+    "author_location": null,
+    "template_category": "parks",
+    "template_sentiment": "positive",
+    "template_urgency": "low",
+    "cleaned_text": "News: Happy to report that the park maintenance in Kolkata has improved. Clean and well-maintained green spaces for families.",
+    "keywords": [
+      {
+        "keyword": "park",
+        "score": 1.2
+      },
+      {
+        "keyword": "maintenance",
+        "score": 1.2
+      }
+    ],
+    "keyword_categories": {
+      "water_issues": [],
+      "power_issues": [],
+      "road_transport": [],
+      "waste_sanitation": [],
+      "infrastructure": [
+        "park"
+      ],
+      "general_civic": [
+        "maintenance"
+      ]
+    },
+    "sentiment": "positive",
+    "sentiment_confidence": 1.0,
+    "vader_compound": 0.8591,
+    "urgency": "low",
+    "emotional_indicators": {
+      "exclamation_marks": 0,
+      "question_marks": 0,
+      "caps_words": 0,
+      "emotional_intensity": 0.0,
+      "emotion_counts": {
+        "anger": 0,
+        "fear": 0,
+        "sadness": 0,
+        "joy": 1
+      },
+      "dominant_emotion": "joy"
+    },
+    "extracted_locations": [
+      "Kolkata"
+    ]
+  },
+  {
+    "text": "Sewage overflow near residential area in Pune. Health hazard for residents. Emergency action needed by municipal authorities! #SewageProblems",
+    "source": "twitter",
+    "timestamp": "2025-06-11T19:29:54.453253",
+    "author_location": "Pune, India",
+    "template_category": "sanitation",
+    "template_sentiment": "negative",
+    "template_urgency": "high",
+    "cleaned_text": "Sewage overflow near residential area in Pune. Health hazard for residents. Emergency action needed by municipal authorities! SewageProblems",
+    "keywords": [
+      {
+        "keyword": "sewage",
+        "score": 2.4
+      },
+      {
+        "keyword": "municipal",
+        "score": 1.0
+      },
+      {
+        "keyword": "problem",
+        "score": 1.0
+      },
+      {
+        "keyword": "emergency",
+        "score": 1.0
+      }
+    ],
+    "keyword_categories": {
+      "water_issues": [],
+      "power_issues": [],
+      "road_transport": [],
+      "waste_sanitation": [
+        "sewage"
+      ],
+      "infrastructure": [],
+      "general_civic": [
+        "municipal",
+        "problem",
+        "emergency"
+      ]
+    },
+    "sentiment": "negative",
+    "sentiment_confidence": 0.5389,
+    "vader_compound": -0.4389,
+    "urgency": "medium",
+    "emotional_indicators": {
+      "exclamation_marks": 1,
+      "question_marks": 0,
+      "caps_words": 0,
+      "emotional_intensity": 1.0,
+      "emotion_counts": {
+        "anger": 0,
+        "fear": 0,
+        "sadness": 0,
+        "joy": 0
+      },
+      "dominant_emotion": "neutral"
+    },
+    "extracted_locations": [
+      "Pune"
+    ]
+  },
+  {
+    "text": "Power outage in Kolkata for 16 hours. This is completely unacceptable. When will the electricity board take action? #PowerOutage",
+    "source": "twitter",
+    "timestamp": "2025-06-20T05:29:54.453253",
+    "author_location": "Kolkata, India",
+    "template_category": "power",
+    "template_sentiment": "negative",
+    "template_urgency": "medium",
+    "cleaned_text": "Power outage in Kolkata for 16 hours. This is completely unacceptable. When will the electricity board take action? PowerOutage",
+    "keywords": [
+      {
+        "keyword": "power",
+        "score": 2.4
+      },
+      {
+        "keyword": "outage",
+        "score": 2.4
+      },
+      {
+        "keyword": "power outage",
+        "score": 2.0
+      },
+      {
+        "keyword": "electricity",
+        "score": 1.0
+      }
+    ],
+    "keyword_categories": {
+      "water_issues": [],
+      "power_issues": [
+        "power",
+        "outage",
+        "power outage",
+        "electricity"
+      ],
+      "road_transport": [],
+      "waste_sanitation": [],
+      "infrastructure": [],
+      "general_civic": []
+    },
+    "sentiment": "negative",
+    "sentiment_confidence": 0.5095,
+    "vader_compound": -0.5095,
+    "urgency": "medium",
+    "emotional_indicators": {
+      "exclamation_marks": 0,
+      "question_marks": 1,
+      "caps_words": 0,
+      "emotional_intensity": 0.0,
+      "emotion_counts": {
+        "anger": 0,
+        "fear": 0,
+        "sadness": 0,
+        "joy": 0
+      },
+      "dominant_emotion": "neutral"
+    },
+    "extracted_locations": [
+      "Kolkata"
+    ]
+  },
+  {
+    "text": "News: The municipal corporation in Chennai announced new measures to address the water supply issues. The initiative includes installation of new pipelines and improvement of existing infrastructure.",
+    "source": "news",
+    "timestamp": "2025-06-23T08:29:54.453253",
+    "author_location": null,
+    "template_category": "water",
+    "template_sentiment": "positive",
+    "template_urgency": "low",
+    "cleaned_text": "News: The municipal corporation in Chennai announced new measures to address the water supply issues. The initiative includes installation of new pipelines and improvement of existing infrastructure.",
+    "keywords": [
+      {
+        "keyword": "water supply",
+        "score": 2.0
+      },
+      {
+        "keyword": "municipal corporation",
+        "score": 2.0
+      },
+      {
+        "keyword": "municipal",
+        "score": 1.2
+      },
+      {
+        "keyword": "corporation",
+        "score": 1.2
+      },
+      {
+        "keyword": "water",
+        "score": 1.0
+      }
+    ],
+    "keyword_categories": {
+      "water_issues": [
+        "water supply",
+        "water"
+      ],
+      "power_issues": [],
+      "road_transport": [],
+      "waste_sanitation": [],
+      "infrastructure": [],
+      "general_civic": [
+        "municipal corporation",
+        "municipal",
+        "corporation"
+      ]
+    },
+    "sentiment": "positive",
+    "sentiment_confidence": 0.4588,
+    "vader_compound": 0.4588,
+    "urgency": "low",
+    "emotional_indicators": {
+      "exclamation_marks": 0,
+      "question_marks": 0,
+      "caps_words": 0,
+      "emotional_intensity": 0.0,
+      "emotion_counts": {
+        "anger": 0,
+        "fear": 0,
+        "sadness": 0,
+        "joy": 0
+      },
+      "dominant_emotion": "neutral"
+    },
+    "extracted_locations": [
+      "Chennai"
+    ]
+  },
+  {
+    "text": "Public transport service has become very unreliable in Chennai. Buses are irregular and overcrowded. Need better management. #PublicTransport",
+    "source": "twitter",
+    "timestamp": "2025-06-04T01:29:54.453253",
+    "author_location": "Chennai, India",
+    "template_category": "transport",
+    "template_sentiment": "negative",
+    "template_urgency": "medium",
+    "cleaned_text": "Public transport service has become very unreliable in Chennai. Buses are irregular and overcrowded. Need better management. PublicTransport",
+    "keywords": [
+      {
+        "keyword": "public",
+        "score": 2.4
+      },
+      {
+        "keyword": "transport",
+        "score": 2.4
+      },
+      {
+        "keyword": "public transport",
+        "score": 2.0
+      },
+      {
+        "keyword": "bus",
+        "score": 1.0
+      }
+    ],
+    "keyword_categories": {
+      "water_issues": [],
+      "power_issues": [],
+      "road_transport": [
+        "transport",
+        "public transport",
+        "bus"
+      ],
+      "waste_sanitation": [],
+      "infrastructure": [],
+      "general_civic": [
+        "public"
+      ]
+    },
+    "sentiment": "positive",
+    "sentiment_confidence": 0.5404,
+    "vader_compound": 0.4404,
+    "urgency": "low",
+    "emotional_indicators": {
+      "exclamation_marks": 0,
+      "question_marks": 0,
+      "caps_words": 0,
+      "emotional_intensity": 0.0,
+      "emotion_counts": {
+        "anger": 0,
+        "fear": 0,
+        "sadness": 0,
+        "joy": 0
+      },
+      "dominant_emotion": "neutral"
+    },
+    "extracted_locations": [
+      "Chennai"
+    ]
+  },
+  {
+    "text": "Public transport service has become very unreliable in Chennai. Buses are irregular and overcrowded. Need better management. #PublicTransport",
+    "source": "twitter",
+    "timestamp": "2025-06-12T16:29:54.453253",
+    "author_location": "Chennai, India",
+    "template_category": "transport",
+    "template_sentiment": "negative",
+    "template_urgency": "medium",
+    "cleaned_text": "Public transport service has become very unreliable in Chennai. Buses are irregular and overcrowded. Need better management. PublicTransport",
+    "keywords": [
+      {
+        "keyword": "public",
+        "score": 2.4
+      },
+      {
+        "keyword": "transport",
+        "score": 2.4
+      },
+      {
+        "keyword": "public transport",
+        "score": 2.0
+      },
+      {
+        "keyword": "bus",
+        "score": 1.0
+      }
+    ],
+    "keyword_categories": {
+      "water_issues": [],
+      "power_issues": [],
+      "road_transport": [
+        "transport",
+        "public transport",
+        "bus"
+      ],
+      "waste_sanitation": [],
+      "infrastructure": [],
+      "general_civic": [
+        "public"
+      ]
+    },
+    "sentiment": "positive",
+    "sentiment_confidence": 0.5404,
+    "vader_compound": 0.4404,
+    "urgency": "low",
+    "emotional_indicators": {
+      "exclamation_marks": 0,
+      "question_marks": 0,
+      "caps_words": 0,
+      "emotional_intensity": 0.0,
+      "emotion_counts": {
+        "anger": 0,
+        "fear": 0,
+        "sadness": 0,
+        "joy": 0
+      },
+      "dominant_emotion": "neutral"
+    },
+    "extracted_locations": [
+      "Chennai"
+    ]
+  },
+  {
+    "text": "Terrible road conditions in Delhi. Potholes everywhere causing traffic problems and vehicle damage. The municipal corporation needs to fix this URGENTLY!!! #RoadRepair #Delhi",
+    "source": "twitter",
+    "timestamp": "2025-06-04T01:29:54.453253",
+    "author_location": "Delhi, India",
+    "template_category": "roads",
+    "template_sentiment": "negative",
+    "template_urgency": "high",
+    "cleaned_text": "Terrible road conditions in Delhi. Potholes everywhere causing traffic problems and vehicle damage. The municipal corporation needs to fix this URGENTLY!! RoadRepair Delhi",
+    "keywords": [
+      {
+        "keyword": "road",
+        "score": 2.4
+      },
+      {
+        "keyword": "road condition",
+        "score": 2.0
+      },
+      {
+        "keyword": "traffic problem",
+        "score": 2.0
+      },
+      {
+        "keyword": "municipal corporation",
+        "score": 2.0
+      },
+      {
+        "keyword": "pothole",
+        "score": 1.2
+      }
+    ],
+    "keyword_categories": {
+      "water_issues": [],
+      "power_issues": [],
+      "road_transport": [
+        "road",
+        "road condition",
+        "traffic problem",
+        "pothole"
+      ],
+      "waste_sanitation": [],
+      "infrastructure": [],
+      "general_civic": [
+        "municipal corporation"
+      ]
+    },
+    "sentiment": "negative",
+    "sentiment_confidence": 1.0,
+    "vader_compound": -0.8619,
+    "urgency": "high",
+    "emotional_indicators": {
+      "exclamation_marks": 3,
+      "question_marks": 0,
+      "caps_words": 1,
+      "emotional_intensity": 3.5,
+      "emotion_counts": {
+        "anger": 0,
+        "fear": 0,
+        "sadness": 0,
+        "joy": 0
+      },
+      "dominant_emotion": "neutral"
+    },
+    "extracted_locations": [
+      "Delhi"
+    ]
+  },
+  {
+    "text": "Happy to report that the park maintenance in Pune has improved. Clean and well-maintained green spaces for families. #ParkMaintenance",
+    "source": "twitter",
+    "timestamp": "2025-06-03T09:29:54.453253",
+    "author_location": "Pune, India",
+    "template_category": "parks",
+    "template_sentiment": "positive",
+    "template_urgency": "low",
+    "cleaned_text": "Happy to report that the park maintenance in Pune has improved. Clean and well-maintained green spaces for families. ParkMaintenance",
+    "keywords": [
+      {
+        "keyword": "park",
+        "score": 2.4
+      },
+      {
+        "keyword": "maintenance",
+        "score": 2.4
+      }
+    ],
+    "keyword_categories": {
+      "water_issues": [],
+      "power_issues": [],
+      "road_transport": [],
+      "waste_sanitation": [],
+      "infrastructure": [
+        "park"
+      ],
+      "general_civic": [
+        "maintenance"
+      ]
+    },
+    "sentiment": "positive",
+    "sentiment_confidence": 1.0,
+    "vader_compound": 0.8591,
+    "urgency": "low",
+    "emotional_indicators": {
+      "exclamation_marks": 0,
+      "question_marks": 0,
+      "caps_words": 0,
+      "emotional_intensity": 0.0,
+      "emotion_counts": {
+        "anger": 0,
+        "fear": 0,
+        "sadness": 0,
+        "joy": 1
+      },
+      "dominant_emotion": "joy"
+    },
+    "extracted_locations": [
+      "Pune"
+    ]
+  },
+  {
+    "text": "Terrible road conditions in Pune. Potholes everywhere causing traffic problems and vehicle damage. The municipal corporation needs to fix this URGENTLY!!! #RoadRepair #Pune",
+    "source": "twitter",
+    "timestamp": "2025-06-01T23:29:54.453253",
+    "author_location": "Pune, India",
+    "template_category": "roads",
+    "template_sentiment": "negative",
+    "template_urgency": "high",
+    "cleaned_text": "Terrible road conditions in Pune. Potholes everywhere causing traffic problems and vehicle damage. The municipal corporation needs to fix this URGENTLY!! RoadRepair Pune",
+    "keywords": [
+      {
+        "keyword": "road",
+        "score": 2.4
+      },
+      {
+        "keyword": "road condition",
+        "score": 2.0
+      },
+      {
+        "keyword": "traffic problem",
+        "score": 2.0
+      },
+      {
+        "keyword": "municipal corporation",
+        "score": 2.0
+      },
+      {
+        "keyword": "pothole",
+        "score": 1.2
+      }
+    ],
+    "keyword_categories": {
+      "water_issues": [],
+      "power_issues": [],
+      "road_transport": [
+        "road",
+        "road condition",
+        "traffic problem",
+        "pothole"
+      ],
+      "waste_sanitation": [],
+      "infrastructure": [],
+      "general_civic": [
+        "municipal corporation"
+      ]
+    },
+    "sentiment": "negative",
+    "sentiment_confidence": 1.0,
+    "vader_compound": -0.8619,
+    "urgency": "high",
+    "emotional_indicators": {
+      "exclamation_marks": 3,
+      "question_marks": 0,
+      "caps_words": 1,
+      "emotional_intensity": 3.5,
+      "emotion_counts": {
+        "anger": 0,
+        "fear": 0,
+        "sadness": 0,
+        "joy": 0
+      },
+      "dominant_emotion": "neutral"
+    },
+    "extracted_locations": [
+      "Pune"
+    ]
+  },
+  {
+    "text": "Happy to report that the park maintenance in Hyderabad has improved. Clean and well-maintained green spaces for families. #ParkMaintenance",
+    "source": "twitter",
+    "timestamp": "2025-06-23T03:29:54.453253",
+    "author_location": "Hyderabad, India",
+    "template_category": "parks",
+    "template_sentiment": "positive",
+    "template_urgency": "low",
+    "cleaned_text": "Happy to report that the park maintenance in Hyderabad has improved. Clean and well-maintained green spaces for families. ParkMaintenance",
+    "keywords": [
+      {
+        "keyword": "park",
+        "score": 2.4
+      },
+      {
+        "keyword": "maintenance",
+        "score": 2.4
+      }
+    ],
+    "keyword_categories": {
+      "water_issues": [],
+      "power_issues": [],
+      "road_transport": [],
+      "waste_sanitation": [],
+      "infrastructure": [
+        "park"
+      ],
+      "general_civic": [
+        "maintenance"
+      ]
+    },
+    "sentiment": "positive",
+    "sentiment_confidence": 1.0,
+    "vader_compound": 0.8591,
+    "urgency": "low",
+    "emotional_indicators": {
+      "exclamation_marks": 0,
+      "question_marks": 0,
+      "caps_words": 0,
+      "emotional_intensity": 0.0,
+      "emotion_counts": {
+        "anger": 0,
+        "fear": 0,
+        "sadness": 0,
+        "joy": 1
+      },
+      "dominant_emotion": "joy"
+    },
+    "extracted_locations": [
+      "Hyderabad"
+    ]
+  },
+  {
+    "text": "The municipal corporation in Bangalore announced new measures to address the water supply issues. The initiative includes installation of new pipelines and improvement of existing infrastructure.",
+    "source": "twitter",
+    "timestamp": "2025-05-30T04:29:54.453253",
+    "author_location": "Bangalore, India",
+    "template_category": "water",
+    "template_sentiment": "positive",
+    "template_urgency": "low",
+    "cleaned_text": "The municipal corporation in Bangalore announced new measures to address the water supply issues. The initiative includes installation of new pipelines and improvement of existing infrastructure.",
+    "keywords": [
+      {
+        "keyword": "water supply",
+        "score": 2.0
+      },
+      {
+        "keyword": "municipal corporation",
+        "score": 2.0
+      },
+      {
+        "keyword": "municipal",
+        "score": 1.2
+      },
+      {
+        "keyword": "corporation",
+        "score": 1.2
+      },
+      {
+        "keyword": "water",
+        "score": 1.0
+      }
+    ],
+    "keyword_categories": {
+      "water_issues": [
+        "water supply",
+        "water"
+      ],
+      "power_issues": [],
+      "road_transport": [],
+      "waste_sanitation": [],
+      "infrastructure": [],
+      "general_civic": [
+        "municipal corporation",
+        "municipal",
+        "corporation"
+      ]
+    },
+    "sentiment": "positive",
+    "sentiment_confidence": 0.4588,
+    "vader_compound": 0.4588,
+    "urgency": "low",
+    "emotional_indicators": {
+      "exclamation_marks": 0,
+      "question_marks": 0,
+      "caps_words": 0,
+      "emotional_intensity": 0.0,
+      "emotion_counts": {
+        "anger": 0,
+        "fear": 0,
+        "sadness": 0,
+        "joy": 0
+      },
+      "dominant_emotion": "neutral"
+    },
+    "extracted_locations": [
+      "Bangalore"
+    ]
+  },
+  {
+    "text": "Garbage collection has improved significantly in Mumbai over the past month. Thanks to the efficient work by the sanitation department. #ImprovedServices",
+    "source": "twitter",
+    "timestamp": "2025-06-09T21:29:54.453253",
+    "author_location": "Mumbai, India",
+    "template_category": "sanitation",
+    "template_sentiment": "positive",
+    "template_urgency": "low",
+    "cleaned_text": "Garbage collection has improved significantly in Mumbai over the past month. Thanks to the efficient work by the sanitation department. ImprovedServices",
+    "keywords": [
+      {
+        "keyword": "garbage collection",
+        "score": 2.0
+      },
+      {
+        "keyword": "garbage",
+        "score": 1.2
+      },
+      {
+        "keyword": "sanitation",
+        "score": 1.0
+      }
+    ],
+    "keyword_categories": {
+      "water_issues": [],
+      "power_issues": [],
+      "road_transport": [],
+      "waste_sanitation": [
+        "garbage collection",
+        "garbage",
+        "sanitation"
+      ],
+      "infrastructure": [],
+      "general_civic": []
+    },
+    "sentiment": "positive",
+    "sentiment_confidence": 0.9316,
+    "vader_compound": 0.8316,
+    "urgency": "low",
+    "emotional_indicators": {
+      "exclamation_marks": 0,
+      "question_marks": 0,
+      "caps_words": 0,
+      "emotional_intensity": 0.0,
+      "emotion_counts": {
+        "anger": 0,
+        "fear": 0,
+        "sadness": 0,
+        "joy": 0
+      },
+      "dominant_emotion": "neutral"
+    },
+    "extracted_locations": [
+      "Mumbai"
+    ]
+  }
+]

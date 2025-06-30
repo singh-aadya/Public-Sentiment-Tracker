@@ -1,0 +1,32 @@
+{
+  "total_records": 50,
+  "sentiment_distribution": {
+    "negative": 27,
+    "positive": 23
+  },
+  "urgency_distribution": {
+    "medium": 21,
+    "low": 23,
+    "high": 6
+  },
+  "location_distribution": {
+    "Bangalore": 9,
+    "Pune": 8,
+    "Chennai": 4,
+    "Kolkata": 9,
+    "Delhi": 9,
+    "Hyderabad": 7,
+    "Mumbai": 4
+  },
+  "category_distribution": {
+    "sanitation": 12,
+    "infrastructure": 7,
+    "water": 9,
+    "power": 6,
+    "parks": 7,
+    "roads": 6,
+    "traffic": 2,
+    "transport": 1
+  },
+  "processing_timestamp": "2025-06-23T05:46:52.164872+00:00"
+}

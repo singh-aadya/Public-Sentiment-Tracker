@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_06f70574bebe96df9b8c36ca0cdfaba3 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_06f70574bebe96df9b8c36ca0cdfaba3" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_06f70574bebe96df9b8c36ca0cdfaba3 = L.map(
+                "map_06f70574bebe96df9b8c36ca0cdfaba3",
+                {
+                    center: [20.5937, 78.9629],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 6,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_174763f89529e4faa56df78737872d97 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_174763f89529e4faa56df78737872d97.addTo(map_06f70574bebe96df9b8c36ca0cdfaba3);
+        
+    
+            var tile_layer_76c41e888bfc4e4dc638eca108428407 = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 20, "maxZoom": 20, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abcd", "tms": false}
+            );
+        
+    
+            tile_layer_76c41e888bfc4e4dc638eca108428407.addTo(map_06f70574bebe96df9b8c36ca0cdfaba3);
+        
+    
+            var tile_layer_ffe84b9924838c8fd5613b0499a3974a = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 20, "maxZoom": 20, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abcd", "tms": false}
+            );
+        
+    
+            tile_layer_ffe84b9924838c8fd5613b0499a3974a.addTo(map_06f70574bebe96df9b8c36ca0cdfaba3);
+        
+    
+            var feature_group_93b9fa6b9c26908e6664ab1c33fe54fb = L.featureGroup(
+                {}
+            );
+        
+    
+            var marker_3289e64b22f45c936732b705909e8cd0 = L.marker(
+                [19.076, 72.8777],
+                {}
+            ).addTo(feature_group_93b9fa6b9c26908e6664ab1c33fe54fb);
+        
+    
+            var icon_b3157edcba693a0a4ad118d41eadb6e9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "#1f77b4", "markerColor": "white", "prefix": "glyphicon"}
+            );
+            marker_3289e64b22f45c936732b705909e8cd0.setIcon(icon_b3157edcba693a0a4ad118d41eadb6e9);
+        
+    
+        var popup_f58042fb389d3cdd79a7bb372a41f69f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d2807ea94d92bca7d78cae0cb72d629d = $(`<div id="html_d2807ea94d92bca7d78cae0cb72d629d" style="width: 100.0%; height: 100.0%;">                 <div style="font-family: Arial, sans-serif;">                     <h4>Mumbai</h4>                     <p><strong>Primary Category:</strong> Water Crisis</p>                     <p><strong>Total Issues:</strong> 2</p>                 </div>                 </div>`)[0];
+                popup_f58042fb389d3cdd79a7bb372a41f69f.setContent(html_d2807ea94d92bca7d78cae0cb72d629d);
+            
+        
+
+        marker_3289e64b22f45c936732b705909e8cd0.bindPopup(popup_f58042fb389d3cdd79a7bb372a41f69f)
+        ;
+
+        
+    
+    
+            marker_3289e64b22f45c936732b705909e8cd0.bindTooltip(
+                `<div>
+                     Mumbai: Water Crisis
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            feature_group_93b9fa6b9c26908e6664ab1c33fe54fb.addTo(map_06f70574bebe96df9b8c36ca0cdfaba3);
+        
+    
+            var feature_group_19225b674499ab463393ec72a0515aaf = L.featureGroup(
+                {}
+            );
+        
+    
+            feature_group_19225b674499ab463393ec72a0515aaf.addTo(map_06f70574bebe96df9b8c36ca0cdfaba3);
+        
+    
+            var feature_group_b87c07c26cf5248a3bc9c21781f9d509 = L.featureGroup(
+                {}
+            );
+        
+    
+            var marker_72e8cda33bb0c8138853f6c8af5384fa = L.marker(
+                [28.6139, 77.209],
+                {}
+            ).addTo(feature_group_b87c07c26cf5248a3bc9c21781f9d509);
+        
+    
+            var icon_ac259bbee6f4bc20de0c263318a81e85 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "#2ca02c", "markerColor": "white", "prefix": "glyphicon"}
+            );
+            marker_72e8cda33bb0c8138853f6c8af5384fa.setIcon(icon_ac259bbee6f4bc20de0c263318a81e85);
+        
+    
+        var popup_76e8d31e27c84c1d73a927880e8c8f0e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_199cabcbbe7a505b49f0cfa433c7be84 = $(`<div id="html_199cabcbbe7a505b49f0cfa433c7be84" style="width: 100.0%; height: 100.0%;">                 <div style="font-family: Arial, sans-serif;">                     <h4>Delhi</h4>                     <p><strong>Primary Category:</strong> Road Condition</p>                     <p><strong>Total Issues:</strong> 1</p>                 </div>                 </div>`)[0];
+                popup_76e8d31e27c84c1d73a927880e8c8f0e.setContent(html_199cabcbbe7a505b49f0cfa433c7be84);
+            
+        
+
+        marker_72e8cda33bb0c8138853f6c8af5384fa.bindPopup(popup_76e8d31e27c84c1d73a927880e8c8f0e)
+        ;
+
+        
+    
+    
+            marker_72e8cda33bb0c8138853f6c8af5384fa.bindTooltip(
+                `<div>
+                     Delhi: Road Condition
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            feature_group_b87c07c26cf5248a3bc9c21781f9d509.addTo(map_06f70574bebe96df9b8c36ca0cdfaba3);
+        
+    
+            var feature_group_8f481bd4495b6ab21667e52cdd9ad94b = L.featureGroup(
+                {}
+            );
+        
+    
+            feature_group_8f481bd4495b6ab21667e52cdd9ad94b.addTo(map_06f70574bebe96df9b8c36ca0cdfaba3);
+        
+    
+            var feature_group_0571c2aad250c3fe56f249472f6fe3a1 = L.featureGroup(
+                {}
+            );
+        
+    
+            feature_group_0571c2aad250c3fe56f249472f6fe3a1.addTo(map_06f70574bebe96df9b8c36ca0cdfaba3);
+        
+    
+            var feature_group_7ee709be3fa55a4cc46fad1a54db84a0 = L.featureGroup(
+                {}
+            );
+        
+    
+            feature_group_7ee709be3fa55a4cc46fad1a54db84a0.addTo(map_06f70574bebe96df9b8c36ca0cdfaba3);
+        
+    
+            var feature_group_e450528df0569e2382ebb921adfdd28d = L.featureGroup(
+                {}
+            );
+        
+    
+            feature_group_e450528df0569e2382ebb921adfdd28d.addTo(map_06f70574bebe96df9b8c36ca0cdfaba3);
+        
+    
+            var feature_group_2c07ad8c69c0133e60ea309db785a9bb = L.featureGroup(
+                {}
+            );
+        
+    
+            var marker_1a465f2929d34a3f2afa1a3d6a4d5813 = L.marker(
+                [12.9716, 77.5946],
+                {}
+            ).addTo(feature_group_2c07ad8c69c0133e60ea309db785a9bb);
+        
+    
+            var icon_d3c0254a263458361ecd544a23ae262f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "#7f7f7f", "markerColor": "white", "prefix": "glyphicon"}
+            );
+            marker_1a465f2929d34a3f2afa1a3d6a4d5813.setIcon(icon_d3c0254a263458361ecd544a23ae262f);
+        
+    
+        var popup_535c55f8f3dd728607a9a6aebc8e1e24 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7fa33629918fd1602581792f383364a3 = $(`<div id="html_7fa33629918fd1602581792f383364a3" style="width: 100.0%; height: 100.0%;">                 <div style="font-family: Arial, sans-serif;">                     <h4>Bangalore</h4>                     <p><strong>Primary Category:</strong> Transport Improved</p>                     <p><strong>Total Issues:</strong> 1</p>                 </div>                 </div>`)[0];
+                popup_535c55f8f3dd728607a9a6aebc8e1e24.setContent(html_7fa33629918fd1602581792f383364a3);
+            
+        
+
+        marker_1a465f2929d34a3f2afa1a3d6a4d5813.bindPopup(popup_535c55f8f3dd728607a9a6aebc8e1e24)
+        ;
+
+        
+    
+    
+            marker_1a465f2929d34a3f2afa1a3d6a4d5813.bindTooltip(
+                `<div>
+                     Bangalore: Transport Improved
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            feature_group_2c07ad8c69c0133e60ea309db785a9bb.addTo(map_06f70574bebe96df9b8c36ca0cdfaba3);
+        
+    
+            var feature_group_a3d35ec06129f681ec739d81da5d83a5 = L.featureGroup(
+                {}
+            );
+        
+    
+            feature_group_a3d35ec06129f681ec739d81da5d83a5.addTo(map_06f70574bebe96df9b8c36ca0cdfaba3);
+        
+    
+            var layer_control_092cd452e4b05852dea21a1c11d08d32_layers = {
+                base_layers : {
+                    "openstreetmap" : tile_layer_174763f89529e4faa56df78737872d97,
+                    "Light Map" : tile_layer_76c41e888bfc4e4dc638eca108428407,
+                    "Dark Map" : tile_layer_ffe84b9924838c8fd5613b0499a3974a,
+                },
+                overlays :  {
+                    "Water Issues" : feature_group_93b9fa6b9c26908e6664ab1c33fe54fb,
+                    "Power Issues" : feature_group_19225b674499ab463393ec72a0515aaf,
+                    "Road Issues" : feature_group_b87c07c26cf5248a3bc9c21781f9d509,
+                    "Traffic Issues" : feature_group_8f481bd4495b6ab21667e52cdd9ad94b,
+                    "Garbage Issues" : feature_group_0571c2aad250c3fe56f249472f6fe3a1,
+                    "Municipal Issues" : feature_group_7ee709be3fa55a4cc46fad1a54db84a0,
+                    "Infrastructure Issues" : feature_group_e450528df0569e2382ebb921adfdd28d,
+                    "Transport Issues" : feature_group_2c07ad8c69c0133e60ea309db785a9bb,
+                    "Other Issues" : feature_group_a3d35ec06129f681ec739d81da5d83a5,
+                },
+            };
+            let layer_control_092cd452e4b05852dea21a1c11d08d32 = L.control.layers(
+                layer_control_092cd452e4b05852dea21a1c11d08d32_layers.base_layers,
+                layer_control_092cd452e4b05852dea21a1c11d08d32_layers.overlays,
+                {"autoZIndex": true, "collapsed": true, "position": "topright"}
+            ).addTo(map_06f70574bebe96df9b8c36ca0cdfaba3);
+
+        
+</script>
+</html>

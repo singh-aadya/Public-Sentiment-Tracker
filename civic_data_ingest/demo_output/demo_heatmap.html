@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_0021a23663ad4bf8ada726c8f81f896d {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+        <div style="position: fixed; 
+                    top: 10px; right: 10px; width: 200px; height: 120px; 
+                    background-color: white; border:2px solid grey; z-index:9999; 
+                    font-size:14px; padding: 10px">
+        <h4>Civic Issues Map</h4>
+        <p><span style="color:red;">●</span> High Urgency</p>
+        <p><span style="color:orange;">●</span> Medium Urgency/Negative</p>
+        <p><span style="color:green;">●</span> Positive Issues</p>
+        <p><span style="color:blue;">●</span> Neutral Issues</p>
+        <p><small>Size indicates issue count</small></p>
+        </div>
+        
+    
+            <div class="folium-map" id="map_0021a23663ad4bf8ada726c8f81f896d" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_0021a23663ad4bf8ada726c8f81f896d = L.map(
+                "map_0021a23663ad4bf8ada726c8f81f896d",
+                {
+                    center: [20.5937, 78.9629],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 6,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_c7ff2a4bfdff37f836795bba6094151d = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_c7ff2a4bfdff37f836795bba6094151d.addTo(map_0021a23663ad4bf8ada726c8f81f896d);
+        
+    
+            var tile_layer_b588c118c3efdebfa63f34cae4e9ee29 = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 20, "maxZoom": 20, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abcd", "tms": false}
+            );
+        
+    
+            tile_layer_b588c118c3efdebfa63f34cae4e9ee29.addTo(map_0021a23663ad4bf8ada726c8f81f896d);
+        
+    
+            var tile_layer_71556052a53a48f1c18309900c40c1ef = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 20, "maxZoom": 20, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abcd", "tms": false}
+            );
+        
+    
+            tile_layer_71556052a53a48f1c18309900c40c1ef.addTo(map_0021a23663ad4bf8ada726c8f81f896d);
+        
+    
+            var circle_marker_76c09fb6fef296586ea1494ad8be6a29 = L.circleMarker(
+                [28.6139, 77.209],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 1}
+            ).addTo(map_0021a23663ad4bf8ada726c8f81f896d);
+        
+    
+        var popup_ed77d4256bad4347b00b5d0a6c61df2e = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_288675a9705c1216e93a809539915ca1 = $(`<div id="html_288675a9705c1216e93a809539915ca1" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif; width: 250px;">                 <h4>Delhi</h4>                 <p><strong>Total Issues:</strong> 6</p>                 <p><strong>Dominant Sentiment:</strong> Negative</p>                 <p><strong>Dominant Urgency:</strong> High</p>                                  <h5>Sentiment Distribution:</h5>                 <ul>                 <li>Negative: 4</li> <li>Positive: 2</li>                 </ul>                                  <h5>Top Issues:</h5>                 <ul>                 <li>municipal corporation: 4</li> <li>road: 3</li> <li>road condition: 3</li>                 </ul>             </div>             </div>`)[0];
+                popup_ed77d4256bad4347b00b5d0a6c61df2e.setContent(html_288675a9705c1216e93a809539915ca1);
+            
+        
+
+        circle_marker_76c09fb6fef296586ea1494ad8be6a29.bindPopup(popup_ed77d4256bad4347b00b5d0a6c61df2e)
+        ;
+
+        
+    
+    
+            circle_marker_76c09fb6fef296586ea1494ad8be6a29.bindTooltip(
+                `<div>
+                     Delhi: 6 issues
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_8bf3e8c9a72d2080c5015b743b996d3b = L.circleMarker(
+                [18.5204, 73.8567],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 25, "stroke": true, "weight": 1}
+            ).addTo(map_0021a23663ad4bf8ada726c8f81f896d);
+        
+    
+        var popup_264b5a3c4ca00e04588a83d4cc4f42ae = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_531efeb64b902d22652d74901154da61 = $(`<div id="html_531efeb64b902d22652d74901154da61" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif; width: 250px;">                 <h4>Pune</h4>                 <p><strong>Total Issues:</strong> 12</p>                 <p><strong>Dominant Sentiment:</strong> Positive</p>                 <p><strong>Dominant Urgency:</strong> Low</p>                                  <h5>Sentiment Distribution:</h5>                 <ul>                 <li>Positive: 6</li> <li>Negative: 6</li>                 </ul>                                  <h5>Top Issues:</h5>                 <ul>                 <li>water supply: 4</li> <li>water: 4</li> <li>supply: 3</li>                 </ul>             </div>             </div>`)[0];
+                popup_264b5a3c4ca00e04588a83d4cc4f42ae.setContent(html_531efeb64b902d22652d74901154da61);
+            
+        
+
+        circle_marker_8bf3e8c9a72d2080c5015b743b996d3b.bindPopup(popup_264b5a3c4ca00e04588a83d4cc4f42ae)
+        ;
+
+        
+    
+    
+            circle_marker_8bf3e8c9a72d2080c5015b743b996d3b.bindTooltip(
+                `<div>
+                     Pune: 12 issues
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_a92d7e137f0679f266281d3a94a1eca7 = L.circleMarker(
+                [13.0827, 80.2707],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 1}
+            ).addTo(map_0021a23663ad4bf8ada726c8f81f896d);
+        
+    
+        var popup_4addd473ca2bf2f89522eea3616d740c = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_01ecad438cd744db4533a546cb6c7807 = $(`<div id="html_01ecad438cd744db4533a546cb6c7807" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif; width: 250px;">                 <h4>Chennai</h4>                 <p><strong>Total Issues:</strong> 6</p>                 <p><strong>Dominant Sentiment:</strong> Positive</p>                 <p><strong>Dominant Urgency:</strong> Low</p>                                  <h5>Sentiment Distribution:</h5>                 <ul>                 <li>Negative: 1</li> <li>Positive: 5</li>                 </ul>                                  <h5>Top Issues:</h5>                 <ul>                 <li>municipal: 2</li> <li>public: 2</li> <li>transport: 2</li>                 </ul>             </div>             </div>`)[0];
+                popup_4addd473ca2bf2f89522eea3616d740c.setContent(html_01ecad438cd744db4533a546cb6c7807);
+            
+        
+
+        circle_marker_a92d7e137f0679f266281d3a94a1eca7.bindPopup(popup_4addd473ca2bf2f89522eea3616d740c)
+        ;
+
+        
+    
+    
+            circle_marker_a92d7e137f0679f266281d3a94a1eca7.bindTooltip(
+                `<div>
+                     Chennai: 6 issues
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_cf9b591f5b6b775025af5b25d259dd59 = L.circleMarker(
+                [19.076, 72.8777],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11, "stroke": true, "weight": 1}
+            ).addTo(map_0021a23663ad4bf8ada726c8f81f896d);
+        
+    
+        var popup_d751c6472fa8dfbdf7725230efe5b119 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_4bd1e0e69afd28083e1056ddd5415ed2 = $(`<div id="html_4bd1e0e69afd28083e1056ddd5415ed2" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif; width: 250px;">                 <h4>Mumbai</h4>                 <p><strong>Total Issues:</strong> 4</p>                 <p><strong>Dominant Sentiment:</strong> Positive</p>                 <p><strong>Dominant Urgency:</strong> Low</p>                                  <h5>Sentiment Distribution:</h5>                 <ul>                 <li>Negative: 1</li> <li>Positive: 3</li>                 </ul>                                  <h5>Top Issues:</h5>                 <ul>                 <li>power: 1</li> <li>outage: 1</li> <li>power outage: 1</li>                 </ul>             </div>             </div>`)[0];
+                popup_d751c6472fa8dfbdf7725230efe5b119.setContent(html_4bd1e0e69afd28083e1056ddd5415ed2);
+            
+        
+
+        circle_marker_cf9b591f5b6b775025af5b25d259dd59.bindPopup(popup_d751c6472fa8dfbdf7725230efe5b119)
+        ;
+
+        
+    
+    
+            circle_marker_cf9b591f5b6b775025af5b25d259dd59.bindTooltip(
+                `<div>
+                     Mumbai: 4 issues
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_ea8ae0af633a07f5f5d1067ee6841c3d = L.circleMarker(
+                [22.5726, 88.3639],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13, "stroke": true, "weight": 1}
+            ).addTo(map_0021a23663ad4bf8ada726c8f81f896d);
+        
+    
+        var popup_8e61ed2e372d8f8744bc7fc5a0751a71 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_32ec84aa232be97d7a18cddce2e20a8c = $(`<div id="html_32ec84aa232be97d7a18cddce2e20a8c" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif; width: 250px;">                 <h4>Kolkata</h4>                 <p><strong>Total Issues:</strong> 5</p>                 <p><strong>Dominant Sentiment:</strong> Positive</p>                 <p><strong>Dominant Urgency:</strong> Low</p>                                  <h5>Sentiment Distribution:</h5>                 <ul>                 <li>Positive: 4</li> <li>Negative: 1</li>                 </ul>                                  <h5>Top Issues:</h5>                 <ul>                 <li>park: 2</li> <li>maintenance: 2</li> <li>garbage collection: 1</li>                 </ul>             </div>             </div>`)[0];
+                popup_8e61ed2e372d8f8744bc7fc5a0751a71.setContent(html_32ec84aa232be97d7a18cddce2e20a8c);
+            
+        
+
+        circle_marker_ea8ae0af633a07f5f5d1067ee6841c3d.bindPopup(popup_8e61ed2e372d8f8744bc7fc5a0751a71)
+        ;
+
+        
+    
+    
+            circle_marker_ea8ae0af633a07f5f5d1067ee6841c3d.bindTooltip(
+                `<div>
+                     Kolkata: 5 issues
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_d5aaae695bb0bdd8dc05119347736567 = L.circleMarker(
+                [12.9716, 77.5946],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 18, "stroke": true, "weight": 1}
+            ).addTo(map_0021a23663ad4bf8ada726c8f81f896d);
+        
+    
+        var popup_b9d21af00d7ae314c8064317f017b768 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_acfb9ee77a31eef2ac7426056da9db8b = $(`<div id="html_acfb9ee77a31eef2ac7426056da9db8b" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif; width: 250px;">                 <h4>Bangalore</h4>                 <p><strong>Total Issues:</strong> 8</p>                 <p><strong>Dominant Sentiment:</strong> Positive</p>                 <p><strong>Dominant Urgency:</strong> Low</p>                                  <h5>Sentiment Distribution:</h5>                 <ul>                 <li>Positive: 6</li> <li>Negative: 2</li>                 </ul>                                  <h5>Top Issues:</h5>                 <ul>                 <li>municipal corporation: 4</li> <li>water supply: 3</li> <li>municipal: 3</li>                 </ul>             </div>             </div>`)[0];
+                popup_b9d21af00d7ae314c8064317f017b768.setContent(html_acfb9ee77a31eef2ac7426056da9db8b);
+            
+        
+
+        circle_marker_d5aaae695bb0bdd8dc05119347736567.bindPopup(popup_b9d21af00d7ae314c8064317f017b768)
+        ;
+
+        
+    
+    
+            circle_marker_d5aaae695bb0bdd8dc05119347736567.bindTooltip(
+                `<div>
+                     Bangalore: 8 issues
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_7f4951d71494b08fbf236f034240cf3c = L.circleMarker(
+                [17.385, 78.4867],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20, "stroke": true, "weight": 1}
+            ).addTo(map_0021a23663ad4bf8ada726c8f81f896d);
+        
+    
+        var popup_9da867d51c5a6a837a1107e2b675daa1 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_a9613aaccc91e334038b0adc9fc89c6e = $(`<div id="html_a9613aaccc91e334038b0adc9fc89c6e" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif; width: 250px;">                 <h4>Hyderabad</h4>                 <p><strong>Total Issues:</strong> 9</p>                 <p><strong>Dominant Sentiment:</strong> Positive</p>                 <p><strong>Dominant Urgency:</strong> Low</p>                                  <h5>Sentiment Distribution:</h5>                 <ul>                 <li>Positive: 8</li> <li>Negative: 1</li>                 </ul>                                  <h5>Top Issues:</h5>                 <ul>                 <li>garbage collection: 3</li> <li>garbage: 3</li> <li>sanitation: 3</li>                 </ul>             </div>             </div>`)[0];
+                popup_9da867d51c5a6a837a1107e2b675daa1.setContent(html_a9613aaccc91e334038b0adc9fc89c6e);
+            
+        
+
+        circle_marker_7f4951d71494b08fbf236f034240cf3c.bindPopup(popup_9da867d51c5a6a837a1107e2b675daa1)
+        ;
+
+        
+    
+    
+            circle_marker_7f4951d71494b08fbf236f034240cf3c.bindTooltip(
+                `<div>
+                     Hyderabad: 9 issues
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var layer_control_32ecf6aa1cb4795f4333bb7377f076a9_layers = {
+                base_layers : {
+                    "openstreetmap" : tile_layer_c7ff2a4bfdff37f836795bba6094151d,
+                    "Light Map" : tile_layer_b588c118c3efdebfa63f34cae4e9ee29,
+                    "Dark Map" : tile_layer_71556052a53a48f1c18309900c40c1ef,
+                },
+                overlays :  {
+                },
+            };
+            let layer_control_32ecf6aa1cb4795f4333bb7377f076a9 = L.control.layers(
+                layer_control_32ecf6aa1cb4795f4333bb7377f076a9_layers.base_layers,
+                layer_control_32ecf6aa1cb4795f4333bb7377f076a9_layers.overlays,
+                {"autoZIndex": true, "collapsed": true, "position": "topright"}
+            ).addTo(map_0021a23663ad4bf8ada726c8f81f896d);
+
+        
+</script>
+</html>
