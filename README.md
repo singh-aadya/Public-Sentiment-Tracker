@@ -1,4 +1,4 @@
-# Public-Sentiment-Tracker
+# CivicLense: Public-Sentiment-Tracker
 
 A comprehensive system for ingesting, processing, and analyzing civic data from social media and news sources to identify and classify public grievances.
 
